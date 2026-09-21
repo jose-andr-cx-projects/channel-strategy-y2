@@ -273,8 +273,8 @@ The current requirement areas are:
 
 | Requirement area | What the experience needs to enable | Current status |
 | --- | --- | --- |
-| **Information & knowledge** | Give customers the authoritative information needed to understand what happened, what applies, what options exist, what they need to provide and what happens next | In development |
-| **Intent & routing** | Recognise what the customer is trying to resolve and guide them toward the appropriate existing pathway without requiring knowledge of internal service structures | Next to develop |
+| **Information & knowledge** | Give customers the authoritative information needed to understand what happened, what applies, what options exist, what they need to provide and what happens next | Initial requirement set documented |
+| **Intent & routing** | Recognise what the customer is trying to resolve and guide them toward the appropriate existing pathway without requiring knowledge of internal service structures | In development |
 | **Context & continuity** | Retain or reconnect relevant context as customers move between information, digital pathways and human support | To develop |
 | **Support & escalation** | Match guidance and human support to the customer's circumstances and complexity | To develop |
 | **Identity, authority & authentication** | Establish identity or authority only when necessary for the action being taken | To develop |
@@ -418,7 +418,205 @@ It creates value when it helps the customer make the **right next decision with 
 
 ---
 
-## 8. Evidence discipline
+## 8. Requirement area 2 — Intent & routing
+
+### 8.1. Customer need
+
+> **Help me quickly work out what I am trying to do and get me to the right place without making me understand City of Melbourne's service structure first.**
+
+Customers may arrive with language such as:
+
+- "I just want to pay this";
+- "I think this fine is wrong";
+- "someone else was driving";
+- "I do not understand why I got this";
+- "I need help because my situation is different"; or
+- a broader parking question that does not yet map cleanly to a service pathway.
+
+The experience should help translate that customer language into an appropriate next action.
+
+### 8.2. Service need
+
+City of Melbourne needs a consistent way to distinguish customer intents that lead to materially different information, pathways, controls or support.
+
+The routing logic should:
+
+- recognise customer intent before exposing internal service classifications;
+- ask only enough questions to distinguish the next appropriate action;
+- use relevant context where it changes the pathway or level of support;
+- connect the customer to an existing service pathway where one already exists;
+- preserve appropriate human support as a valid destination; and
+- allow the route to change when new information shows that the original interpretation was wrong.
+
+### 8.3. Working design requirement
+
+> **The connected experience should identify the customer's intended action with the minimum necessary questions, distinguish intents that require materially different pathways, and guide the customer to the appropriate existing pathway or level of support without requiring them to understand City of Melbourne's internal service structure.**
+
+### 8.4. Evidence status
+
+**Partially validated — strong working direction.**
+
+Define established that Parking contains multiple customer intents that do not map neatly to one customer-facing pathway.
+
+The use-case work also showed that "general enquiry" is better treated as an ambiguous starting point that should be resolved into a clearer intent, rather than as the destination itself.
+
+The exact routing questions, service rules and escalation conditions still require validation.
+
+### 8.5. Open questions
+
+> **What is the minimum information needed to distinguish the customer's intended action confidently enough to guide the next step?**
+
+Additional questions include:
+
+- Which intents can be recognised without identity or authentication?
+- Which customer circumstances materially change the route?
+- When should the experience provide information first rather than send the customer directly into a form or transaction?
+- When should ambiguity trigger Guided or Assisted support?
+- Which existing pathways are appropriate once the customer's intent is understood?
+- Where is the underlying pathway itself the problem rather than the routing into it?
+
+---
+
+### 8.6. Routing requirement 1 — recognise customer intent before service structure
+
+The customer should not need to select an internal service name before City of Melbourne can help.
+
+**Working requirement**
+
+> **The experience should begin from the customer's goal or situation and translate that into the relevant City of Melbourne service or pathway behind the experience.**
+
+This preserves the distinction established in Define:
+
+> **Customer intent describes what the customer is trying to achieve. The Service Catalogue describes what City of Melbourne delivers.**
+
+The Intelligent Front Door provides the translation layer between them.
+
+**Evidence status:** Strong working direction.
+
+---
+
+### 8.7. Routing requirement 2 — distinguish materially different actions early
+
+Several parking-infringement actions can begin from the same event but require different pathways.
+
+Examples include:
+
+- pay the infringement;
+- request a review;
+- nominate another driver;
+- understand the rule or infringement;
+- seek help because the customer's situation does not fit the standard path; or
+- raise another issue that initially appears related.
+
+**Working requirement**
+
+> **The experience should distinguish materially different customer actions early enough to avoid sending customers into an inappropriate pathway and requiring them to recover later.**
+
+This is the practical expression of the Define principle:
+
+> **Intent disambiguation before pathway selection.**
+
+**Evidence status:** Partially validated.
+
+---
+
+### 8.8. Routing requirement 3 — use context only where it changes the response
+
+A connected experience should not interrogate every customer simply because some customers have complex circumstances.
+
+Context is useful when it materially changes:
+
+- the information presented;
+- the pathway;
+- evidence requirements;
+- authority or authentication requirements; or
+- the level of support.
+
+**Working requirement**
+
+> **The experience should ask for additional context only when that context is needed to change or confirm the next appropriate interaction.**
+
+This supports a simpler routine experience while still allowing more complex circumstances to be recognised.
+
+**Evidence status:** Working Design hypothesis.
+
+---
+
+### 8.9. Routing requirement 4 — connect clearly into the existing pathway
+
+The Intelligent Front Door is not intended to replace every underlying service process in the first iteration.
+
+Where an appropriate pathway already exists, the customer should understand:
+
+- why this pathway applies;
+- what they need before entering it;
+- what will happen when they continue; and
+- whether they are moving into a different interaction mode.
+
+**Working requirement**
+
+> **When routing a customer into an existing pathway, the experience should make the transition understandable and preserve the information needed for the customer to continue confidently.**
+
+**Evidence status:** Strong working direction; continuity details remain to develop.
+
+---
+
+### 8.10. Routing requirement 5 — allow the route to recover when the situation changes
+
+Customer intent may be ambiguous at first or change as the customer learns more.
+
+For example, a person may begin by trying to understand a fine, then decide to pay, nominate another driver or request a review.
+
+**Working requirement**
+
+> **The connected experience should allow customers to change direction without unnecessarily restarting the journey when new information changes the action they need to take.**
+
+Where the experience cannot confidently determine the right path, uncertainty should trigger additional guidance or appropriate human support rather than a forced routing decision.
+
+**Evidence status:** Working Design hypothesis.
+
+---
+
+### 8.11. Routing is not channel deflection
+
+Routing should not be optimised solely to reduce Contact Centre demand.
+
+A successful route may be:
+
+- self-service;
+- a guided digital pathway;
+- a transaction;
+- a review process;
+- an assisted interaction; or
+- specialist human support.
+
+The design objective is:
+
+> **the right next interaction for the customer's need**
+
+rather than:
+
+> **the lowest-cost channel regardless of circumstance**
+
+This keeps the customer-experience ambition and operational-efficiency objective aligned.
+
+---
+
+### 8.12. What good looks like for Intent & routing
+
+A connected Comply experience should allow a customer to say:
+
+> **I do not need to know what City of Melbourne calls the service.**  
+> **I can explain what I am trying to do in terms that make sense to me.**  
+> **I am only asked questions that help determine my next step.**  
+> **I understand why I am being directed to this pathway.**  
+> **If my situation changes, I can change direction without starting over unnecessarily.**
+
+Better routing creates value when customers reach the **appropriate next interaction with less searching, misdirection, channel switching or recovery effort**, while staff receive customers whose needs genuinely require assisted support.
+
+---
+
+## 9. Evidence discipline
 
 During Design, distinguish:
 
@@ -441,7 +639,7 @@ Requirements should remain traceable to a customer need, service need, validated
 
 ---
 
-## 9. Current scope
+## 10. Current scope
 
 ### In scope
 
@@ -470,7 +668,7 @@ Requirements should remain traceable to a customer need, service need, validated
 
 ---
 
-## 10. Design principles
+## 11. Design principles
 
 | Principle | What it means for this work |
 | --- | --- |
@@ -485,7 +683,7 @@ Requirements should remain traceable to a customer need, service need, validated
 
 ---
 
-## 11. Current Design sequence
+## 12. Current Design sequence
 
 The current working sequence is:
 
@@ -499,7 +697,7 @@ The current working sequence is:
 
 ### Next requirement area
 
-**Intent & routing**
+**Context & continuity**
 
 The next step is to define:
 
@@ -508,11 +706,11 @@ The next step is to define:
 - working design requirement;
 - evidence status;
 - open questions; and
-- the conditions that should change the next pathway or interaction.
+- what context needs to persist or be reconnected as customers move between information, pathways and human support.
 
 ---
 
-## 12. Design exit criteria
+## 13. Design exit criteria
 
 Design can move into Deliver when:
 
@@ -531,7 +729,7 @@ Design can move into Deliver when:
 
 ---
 
-## 13. Final Design outcome
+## 14. Final Design outcome
 
 By the end of Design, the team should have a practical and testable future-state approach for the first Intelligent Front Door use case.
 
