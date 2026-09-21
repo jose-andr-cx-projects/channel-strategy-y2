@@ -274,8 +274,8 @@ The current requirement areas are:
 | Requirement area | What the experience needs to enable | Current status |
 | --- | --- | --- |
 | **Information & knowledge** | Give customers the authoritative information needed to understand what happened, what applies, what options exist, what they need to provide and what happens next | Initial requirement set documented |
-| **Intent & routing** | Recognise what the customer is trying to resolve and guide them toward the appropriate existing pathway without requiring knowledge of internal service structures | In development |
-| **Context & continuity** | Retain or reconnect relevant context as customers move between information, digital pathways and human support | To develop |
+| **Intent & routing** | Recognise what the customer is trying to resolve and guide them toward the appropriate existing pathway without requiring knowledge of internal service structures | Initial requirement set documented |
+| **Context & continuity** | Retain or reconnect relevant context as customers move between information, digital pathways and human support | In development |
 | **Support & escalation** | Match guidance and human support to the customer's circumstances and complexity | To develop |
 | **Identity, authority & authentication** | Establish identity or authority only when necessary for the action being taken | To develop |
 | **Discovery & off-platform entry** | Support accurate discovery through search, AI-enabled search, notices and owned channels while guiding customers toward authoritative City of Melbourne pathways | To develop |
@@ -616,7 +616,188 @@ Better routing creates value when customers reach the **appropriate next interac
 
 ---
 
-## 9. Evidence discipline
+## 9. Requirement area 3 — Context & continuity
+
+### 9.1. Customer need
+
+> **Help me continue from where I am without making me repeatedly explain the same situation, rediscover what I already learned or work out how different references and channels relate to the same matter.**
+
+A customer may move between:
+
+- an infringement notice;
+- search or AI-enabled discovery;
+- City of Melbourne information;
+- a payment, nomination or review pathway;
+- a Contact Centre interaction;
+- a specialist service interaction; and
+- a later return to the same matter.
+
+A connected experience should help those interactions feel related where they are part of the same customer need.
+
+### 9.2. Service need
+
+City of Melbourne needs enough relevant context to understand where the customer is in the journey and what has already happened, without collecting, retaining or exposing information that is not necessary.
+
+Useful context may include:
+
+- the customer's current intent;
+- the infringement or matter being discussed;
+- information or evidence already provided;
+- a previous interaction or submission where relevant;
+- the pathway already entered;
+- the customer's current stage in that pathway; and
+- any known constraint that materially changes what can happen next.
+
+The exact context available will vary by channel, system, identity and service rules.
+
+### 9.3. Working design requirement
+
+> **The connected experience should preserve or reconnect the minimum relevant context needed for the customer and City of Melbourne to continue the same journey coherently across interactions, while respecting privacy, authority, system and statutory constraints.**
+
+Continuity does not require every system to share every piece of information.
+
+It requires the experience to avoid unnecessary loss of context where that loss creates customer effort, misrouting or repeated staff work.
+
+### 9.4. Evidence status
+
+**Partially validated — strong problem signal, detailed continuity needs still to validate.**
+
+Define identified fragmented context, channel switching and repeated contact as part of the problem.
+
+The current Parking work also indicates that customers and staff may encounter different identifiers, pathways and interaction histories while dealing with the same matter.
+
+Exactly which context can or should persist across channels and systems remains open.
+
+### 9.5. Open questions
+
+> **What is the minimum context that must persist or be reconnectable for the customer to continue confidently without unnecessary repetition?**
+
+Additional questions include:
+
+- Which context can remain anonymous until the customer enters a pathway that requires identification?
+- Which identifiers should be visible or translated for customers?
+- What information can legitimately move between digital and assisted interactions?
+- What prior interaction should be visible when a customer returns?
+- When should previous context influence the next interaction, and when should it not?
+- Where do current systems or statutory rules prevent continuity?
+- What context should staff receive when a customer moves from digital guidance to human support?
+
+---
+
+### 9.6. Continuity requirement 1 — keep the same matter recognisable
+
+A customer should be able to recognise that different interactions relate to the same infringement or matter even when City of Melbourne systems use different references.
+
+**Working requirement**
+
+> **The experience should maintain a clear customer-facing connection between the infringement or matter and any related pathway, interaction or case reference that the customer may encounter.**
+
+This does not require one universal identifier.
+
+It requires enough translation or explanation that customers and staff can establish that they are talking about the same thing.
+
+**Evidence status:** Partially validated.
+
+---
+
+### 9.7. Continuity requirement 2 — avoid unnecessary repetition when the customer changes channel
+
+Moving from information to a transaction, from digital to assisted support, or from one City of Melbourne channel to another should not automatically require the customer to reconstruct the journey from the beginning.
+
+**Working requirement**
+
+> **Where relevant context has already been provided and can legitimately be reused, the experience should avoid asking the customer to repeat it solely because the interaction has moved to another channel or support mode.**
+
+Where context cannot be carried forward, the experience should make the limitation clear and minimise the amount the customer must provide again.
+
+**Evidence status:** Strong working direction; technical and privacy feasibility to validate.
+
+---
+
+### 9.8. Continuity requirement 3 — preserve progress when the interaction changes
+
+A customer may begin by seeking information and then decide to pay, nominate, request a review or seek human help.
+
+That change should not unnecessarily discard the understanding already established.
+
+**Working requirement**
+
+> **When the customer's next action changes, the experience should preserve relevant progress and context so they can move into the new pathway without restarting unrelated parts of the journey.**
+
+This is the continuity counterpart to the routing requirement that allows customers to change direction.
+
+**Evidence status:** Working Design hypothesis.
+
+---
+
+### 9.9. Continuity requirement 4 — use previous interactions carefully when the customer returns
+
+A returning customer may have:
+
+- an unresolved need;
+- a previous decision;
+- new evidence;
+- a misunderstanding;
+- an incomplete action; or
+- a different reason for returning.
+
+Previous interaction should therefore inform the next response without predetermining it.
+
+**Working requirement**
+
+> **Where a previous interaction is relevant and legitimately available, the experience should use that context to help understand what has already occurred and what the customer needs now, without assuming that every repeat interaction has the same cause.**
+
+**Evidence status:** Partially validated; reasons for repeat interaction require further evidence.
+
+---
+
+### 9.10. Continuity requirement 5 — support a meaningful handoff to people
+
+Human support is part of the connected experience, not a failure state.
+
+When the customer reaches assisted or specialist support, staff should receive enough relevant context to continue the interaction rather than begin a separate journey.
+
+**Working requirement**
+
+> **When a customer moves into human support, the handoff should provide the minimum relevant context needed for staff to understand the customer's intent, current stage and prior interaction where appropriate.**
+
+The objective is to reduce avoidable repetition while preserving the opportunity for staff to confirm or correct the customer's situation.
+
+**Evidence status:** Strong working direction; specific handoff data remains to define.
+
+---
+
+### 9.11. Continuity requirement 6 — continuity must be proportionate
+
+More retained context is not automatically a better experience.
+
+Some interactions should remain anonymous or low-context, and some information should not be reused beyond the purpose for which it was collected.
+
+**Working requirement**
+
+> **The experience should retain, reconnect or expose only the context necessary for the current customer need and legitimate service purpose.**
+
+Privacy, authority, records, security and statutory requirements remain constraints on what continuity can mean in practice.
+
+**Evidence status:** Design principle; exact controls require specialist validation.
+
+---
+
+### 9.12. What good looks like for Context & continuity
+
+A connected Comply experience should allow a customer to say:
+
+> **City of Melbourne understands which matter I am dealing with.**  
+> **I do not have to repeatedly explain information that is already relevant and available.**  
+> **When I move to another pathway or person, I can continue rather than unnecessarily start again.**  
+> **If City of Melbourne cannot carry something forward, I understand what I need to provide and why.**  
+> **When I return later, the experience can recognise relevant prior context without making assumptions about what I need now.**
+
+Better continuity creates value when the journey feels connected across interactions while the organisation uses only the context that is necessary, legitimate and useful.
+
+---
+
+## 10. Evidence discipline
 
 During Design, distinguish:
 
@@ -639,7 +820,7 @@ Requirements should remain traceable to a customer need, service need, validated
 
 ---
 
-## 10. Current scope
+## 11. Current scope
 
 ### In scope
 
@@ -668,7 +849,7 @@ Requirements should remain traceable to a customer need, service need, validated
 
 ---
 
-## 11. Design principles
+## 12. Design principles
 
 | Principle | What it means for this work |
 | --- | --- |
@@ -683,7 +864,7 @@ Requirements should remain traceable to a customer need, service need, validated
 
 ---
 
-## 12. Current Design sequence
+## 13. Current Design sequence
 
 The current working sequence is:
 
@@ -697,7 +878,7 @@ The current working sequence is:
 
 ### Next requirement area
 
-**Context & continuity**
+**Support & escalation**
 
 The next step is to define:
 
@@ -706,11 +887,11 @@ The next step is to define:
 - working design requirement;
 - evidence status;
 - open questions; and
-- what context needs to persist or be reconnected as customers move between information, pathways and human support.
+- the signals and conditions that should change the level of guidance or trigger appropriate human support.
 
 ---
 
-## 13. Design exit criteria
+## 14. Design exit criteria
 
 Design can move into Deliver when:
 
@@ -729,7 +910,7 @@ Design can move into Deliver when:
 
 ---
 
-## 14. Final Design outcome
+## 15. Final Design outcome
 
 By the end of Design, the team should have a practical and testable future-state approach for the first Intelligent Front Door use case.
 
