@@ -1326,13 +1326,160 @@ These remain working Design requirements rather than approved business or techni
 
 ### Next Design task
 
-**Future-state concept framing**
+**Agree the Design approach with the core stakeholder group.**
 
-The next step is to translate the six requirement areas into a small number of future-state interaction principles and concept options that can be mapped across the parking-infringement journey and tested without prematurely selecting technology.
+The current Design brief provides the starting point for that conversation.
+
+The immediate task is not to select a future-state concept or technology. It is to validate the brief, confirm the most important questions to answer, and agree the most useful Design activities for the next three weeks.
 
 ---
 
-## 17. Design exit criteria
+## 17. Design phase planning and stakeholder validation
+
+### 17.1. Planning intent
+
+The current IFD Design page will act as the **Design brief and phase anchor**.
+
+Over the next three weeks, the brief will be reviewed and refined with the core stakeholder group:
+
+- Gavin;
+- Tom;
+- Jasmine;
+- Margot; and
+- Dennis.
+
+The purpose of the validation period is to ensure that the Design phase is shaped by the people who understand the customer experience, service reality, operational constraints and wider design context.
+
+The Design method should therefore **not be fixed in advance**.
+
+The approach will be agreed with stakeholders based on:
+
+- which parts of the brief they confirm or challenge;
+- which evidence gaps matter most;
+- which service constraints require deeper validation;
+- which capabilities need specialist input;
+- what can realistically be tested within the available time; and
+- what decision the Design phase needs to support next.
+
+---
+
+### 17.2. Three-week planning window
+
+The three-week period should be treated as a structured validation and planning window rather than a predetermined workshop sequence.
+
+| Period | Primary purpose | Expected outcome |
+| --- | --- | --- |
+| **Week 1 — Validate the brief** | Review the problem, HMW, So That, context and six requirement areas with the core stakeholder group | Confirm what is sound, what needs refinement, what remains uncertain and what must be tested |
+| **Week 2 — Agree the Design approach** | Use stakeholder input to determine the most useful combination of design activities, participants and evidence | Agreed Design approach, priority questions, required contributors and practical sequence |
+| **Week 3 — Prepare the Design work** | Close material gaps needed to begin the agreed approach and establish the first testable Design focus | Updated Design brief, visible assumptions and constraints, agreed first Design activity and clear next decision |
+
+This sequence describes the **decision progression**, not mandatory meeting formats.
+
+The work may use workshops, one-to-one conversations, service walkthroughs, journey mapping, concept sketching, prototyping, evidence review or asynchronous input depending on what stakeholders determine will provide the strongest evidence.
+
+---
+
+### 17.3. What stakeholders are being asked to validate
+
+The brief should be used to test whether there is sufficient agreement on:
+
+1. **The problem** — does the fragmented-to-connected framing describe a meaningful customer and service problem?
+2. **The journey boundary** — is the parking-infringement journey the right container for the first Design iteration?
+3. **The mode lens** — is Comply an appropriate primary lens, with Transact and Apply used where the interaction changes?
+4. **The context** — are the current customer circumstances, operational considerations and constraints credible?
+5. **The requirement areas** — do the six requirement areas capture what a connected experience needs to enable?
+6. **The evidence gaps** — which assumptions or service rules need validation before concept work?
+7. **The Design approach** — what is the smallest useful set of activities that will produce enough evidence to make the next decision?
+
+Stakeholder review is intended to **improve the brief**, not merely approve it.
+
+Material disagreement, missing evidence or service constraints should be recorded and used to adjust the Design approach.
+
+---
+
+### 17.4. Approach-selection principles
+
+When choosing the Design approach, prioritise:
+
+| Principle | Planning implication |
+| --- | --- |
+| **Decision first** | Start with the decision or uncertainty the activity needs to resolve |
+| **Use the smallest useful test** | Do not run a workshop, prototype or research activity unless it changes what we can decide |
+| **Match method to uncertainty** | Use service-owner validation for service rules, customer evidence for customer needs, and design exploration for future-state interaction questions |
+| **Keep the journey connected** | Avoid splitting the work back into isolated channel improvements |
+| **Preserve evidence status** | Keep confirmed evidence, hypotheses and open questions visibly separate |
+| **Human support stays in scope** | Include assisted and specialist support when exploring the future state |
+| **Technology remains open** | Select technology only after the interaction need is sufficiently understood |
+| **Design for reuse** | Capture patterns that could contribute to the Connected Interactions Framework beyond Parking |
+
+---
+
+### 17.5. Candidate Design activities
+
+The following are **options to choose from with stakeholders**, not a committed delivery plan:
+
+- validate the current journey and service constraints with service and operational stakeholders;
+- walk priority customer circumstances through the six requirement areas;
+- identify which moments in the journey require different information, routing, continuity or support;
+- map the transition between Comply, Transact and Apply;
+- define the minimum connected context required at key handoffs;
+- test where identity, authority or authentication genuinely becomes necessary;
+- examine where off-platform discovery should connect into owned pathways;
+- develop multiple future-state interaction concepts;
+- prototype only the moments needed to test the most important assumptions;
+- test concepts with relevant customer, frontline and service perspectives; and
+- identify reusable patterns for the Connected Interactions Framework.
+
+The selected activities should remain proportionate to the evidence needed for the next decision.
+
+---
+
+### 17.6. Evidence and decision capture
+
+The **IFD - Design README remains the anchor** for the phase.
+
+Do not create additional Design pages simply to record activity.
+
+Update this page when stakeholder work materially changes:
+
+- the problem or journey boundary;
+- a requirement;
+- an evidence status;
+- a confirmed service constraint;
+- a Design principle;
+- the agreed Design approach; or
+- the next decision.
+
+Use the existing project Decision Log for material project decisions and the existing RAID mechanisms for risks, assumptions, issues or dependencies where those need project-level visibility.
+
+Working notes, meeting records and exploratory artefacts can remain in their appropriate working locations rather than being duplicated into the phase anchor.
+
+---
+
+### 17.7. End-of-window planning outcome
+
+At the end of the three-week validation period, the project should be able to state:
+
+> **We have a sufficiently validated Design brief, we know which uncertainties matter most, and stakeholders have agreed the most useful approach for turning the brief into a testable future-state concept.**
+
+The expected planning outputs are:
+
+- a validated or explicitly revised problem, HMW and So That;
+- a validated or refined set of Design requirement areas;
+- confirmed service constraints and clearly labelled remaining assumptions;
+- an agreed Design method and participant mix;
+- an agreed first future-state Design focus;
+- clear evidence or test questions;
+- a practical next sequence; and
+- the next decision the Design work needs to support.
+
+The objective is not to complete the future-state design within the planning window unless stakeholder validation shows that the evidence is already sufficient.
+
+The objective is to enter the next Design activity with a **shared problem, shared constraints and a deliberate method**.
+
+---
+
+## 18. Design exit criteria
 
 Design can move into Deliver when:
 
@@ -1351,7 +1498,7 @@ Design can move into Deliver when:
 
 ---
 
-## 18. Final Design outcome
+## 19. Final Design outcome
 
 By the end of Design, the team should have a practical and testable future-state approach for the first Intelligent Front Door use case.
 
