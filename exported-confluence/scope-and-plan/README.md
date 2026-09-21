@@ -1,5 +1,5 @@
 ---
-title: "1. Scope and Plan"
+title: "1. Project Management"
 source_system: confluence
 confluence_page_id: "1339392001"
 confluence_space_id: "68452354"
@@ -12,407 +12,267 @@ generated: true
 
 > **Source note:** Generated from Confluence. Do not edit directly while Confluence remains the source of truth.
 
-# 1. Scope and Plan
+# 1. Project Management
 
-## Channel Strategy Y2
+## Page status
 
-**Page status:** Draft   
-**Project lead:** Jose Andrade   
-**Related parent page:** Channel Strategy Y2   
-**Phase:** Develop → Deliver   
-**CX pillar / capability:** Our Promise / Vision and Strategy   
-**Last updated:** 9 September 2026   
-**Page owner:** Jose Andrade
-
----
-
-## Purpose
-
-Channel Strategy Y2 establishes the practical Customer Experience enablement layer that helps City of Melbourne move from fragmented customer channels to connected customer interactions.
-
-The work will define and test a minimum viable Connected Interactions Framework supported by service information architecture.
-
-The objective is to improve the organisation's ability to:
-
-| Capability | What this enables |
+| Field | Details |
 | --- | --- |
-| Understand customer intent | Organise experiences around what customers are trying to achieve |
-| Apply appropriate response modes | Match support to customer need, complexity and service context |
-| Route customers effectively | Direct customers to the right information, service or support pathway |
-| Provide meaningful journey information | Help customers understand what is happening and what comes next |
-| Preserve useful context | Reduce unnecessary repetition when customers move between channels or teams |
-| Use consistent knowledge | Give customers and staff clearer and more reliable information |
-| Measure journeys | Understand outcomes across the customer experience rather than only individual channel activity |
-
-Year 2 therefore shifts Channel Strategy from strategy definition toward practical enablement, experimentation and reusable design logic.
-
----
-
-## Problem / opportunity
-
-Customers experience City of Melbourne through a network of entry points and service pathways.
-
-These include:
-
-- search
-- the website
-- forms
-- phone
-- Contact Us
-- Digital Assistant
-- email
-- CRM-enabled interactions
-- assisted support
-- specialist service pathways
-
-The challenge is not simply that there are many channels.
-
-The challenge is that the logic connecting those channels is not always clear or consistent.
-
-| Current issue | Customer / service impact |
-| --- | --- |
-| Services may be described differently across channels | Customers may not know where to begin |
-| Customer intent is not always the organising logic | Internal structures can shape the journey |
-| Routing rules vary | Customers can be redirected or enter the wrong pathway |
-| Knowledge can be fragmented | Different channels may provide different answers |
-| Status language can reflect internal workflow | Customers may not understand progress |
-| Context may not move with the customer | Customers and staff repeat work |
-| Related channel initiatives can progress separately | End-to-end improvement can be lost |
-
-The opportunity is to create shared service logic that can be tested through real initiatives and reused across services.
-
----
-
-## Outcomes
-
-### Customer outcomes
-
-Customers should increasingly be able to:
-
-- find the right pathway based on what they are trying to do
-- understand what information or action is required
-- receive the appropriate level of support
-- move between channels with less repetition
-- receive consistent answers
-- understand what has happened and what happens next
-
-### Staff and service outcomes
-
-Teams should increasingly be able to:
-
-- use shared service and routing logic
-- distinguish self-service, assisted and specialist support needs
-- rely on clearer service information
-- preserve relevant context through handovers
-- use reusable interaction patterns
-- make channel decisions using customer evidence
-- understand journey outcomes rather than only channel performance
-
----
-
-## Scope
-
-### Included — Develop
-
-| Activity | Description |
-| --- | --- |
-| Define Connected Interactions principles | Establish the minimum shared logic needed to connect customer interactions |
-| Define response modes | Clarify broad service responses appropriate to different customer needs |
-| Develop service information architecture foundations | Structure services and pathways around customer intent |
-| Define routing principles | Establish how customers should be guided toward appropriate pathways |
-| Explore journey-status patterns | Improve how progress and next steps are expressed to customers |
-| Define minimum connected context | Identify what needs to be known to support continuity and handover |
-| Develop a journey-measurement approach | Identify evidence needed to assess whether patterns improve the experience |
-| Use practical proof-of-concept work | Learn from real initiatives before attempting broad standardisation |
-
-### Included — Deliver / test
-
-| Activity | Description |
-| --- | --- |
-| Sustainability proof of concept | Test Intelligent Front Door principles through a practical emerging service context |
-| Parking / infringement problem refinement | Continue validating a concrete customer problem and prepare it for Design |
-| Intelligent Front Door patterns | Develop and test customer-intent, routing, support and knowledge logic |
-| Off-Platform Search assessment | Test what customers find before reaching owned channels once the website baseline is ready |
-| Apply reusable patterns through selected initiatives | Test framework components in real delivery contexts |
-| Connect related digital, knowledge, search and service work | Reduce channel-by-channel drift |
-
----
-
-## Out of scope
-
-Channel Strategy Y2 does not include:
-
-- redesigning every City of Melbourne service
-- a full enterprise channel transformation
-- a full website rebuild
-- a full CRM redesign
-- a core-system replacement
-- a whole-of-organisation data-integration program
-- a full AI implementation
-- a broad content-remediation program
-- a whole-of-Council operating-model redesign
-- forcing customers into digital channels
-
-The work may identify future technology, governance or operating-model needs, but those should be recorded as implications rather than silently absorbed into Y2 scope.
-
----
-
-## Current workstreams
-
-| Workstream | Purpose | Current state |
-| --- | --- | --- |
-| Intelligent Front Door | Understand and test customer-intent, entry, routing and support logic | Discover — sustainability proof of concept now provides a practical test |
-| Knowledge Management System | Understand knowledge structure, ownership, reuse and governance | Discover |
-| Information Architecture | Understand service language, customer intent and alignment across channel offers | Discover |
-| Off-Platform Search | Assess what customers find through Google / AI and identify source-of-truth risks | Discover — execution deferred pending website change |
-
----
-
-## Current practical cases
-
-### Sustainability
-
-**Role:** Intelligent Front Door proof of concept.
-
-The sustainability initiative will be used to test how Channel Strategy principles work in practice.
-
-The aim is not to prove a particular technology.
-
-The aim is to learn how to design around:
-
-- customer intent
-- entry
-- knowledge
-- routing
-- support mode
-- UX
-- reusable service logic
-
-Possible interaction mechanisms can be explored with UX / Design and Digital contributors.
-
-### Parking / infringement review
-
-**Role:** problem-framing and design case.
-
-The existing problem statement will continue to be refined and validated.
-
-Current areas of interest include:
-
-- customer understanding of review criteria
-- routing and eligibility
-- clarity before a customer begins a review
-- how policy / operational criteria can become clearer customer guidance
-
-The sustainability proof of concept should inform this work where relevant.
-
-### Off-Platform Search
-
-**Role:** prepared discovery activity temporarily deferred.
-
-The test preparation is ready.
-
-Execution will wait for the planned website change so that results are captured against a more meaningful baseline.
-
-Current expectation: **resume around Sprint 4, subject to website readiness.**
-
----
-
-## Delivery approach
-
-Channel Strategy Y2 should be run as a practical enablement program.
-
-The team should develop reusable patterns by moving between:
-
-**evidence → framing → practical test → learning → reusable pattern**
-
-rather than attempting to fully define the framework before testing it.
-
-### Delivery principles
-
-| Principle | Meaning |
-| --- | --- |
-| Decision first | Use discovery and design to support clear choices |
-| Test through real work | Use active service contexts to make the framework tangible |
-| Start with customer intent | Organise around what customers are trying to achieve |
-| Connect interactions | Design the relationship between channels, not only the channels themselves |
-| Use the simplest useful test | Do not build more than is needed to learn |
-| Keep assisted support visible | Self-service should not remove appropriate human support |
-| Reuse learning | Capture patterns that can apply beyond the original service |
-| Evidence with caveats | Record what is known, assumed and still uncertain |
-| Human in the loop | Automation can support interactions; accountable people remain responsible for service decisions |
-
----
-
-## Current sequencing
-
-### Immediate sequence
-
-1. Use sustainability as the immediate Intelligent Front Door proof of concept.
-2. Bring additional UX / design capability into that work.
-3. Continue refining and validating the parking / infringement review problem statement.
-4. Capture reusable learning from both activities.
-5. Keep Off-Platform Search ready but paused while the website baseline changes.
-6. Resume Off-Platform Search when the changed website environment is ready, currently expected around Sprint 4.
-
-The aim is for these activities to inform each other rather than operate as isolated workstreams.
-
----
-
-## Value drops
-
-| Timing | Value drop | What should be available |
-| --- | --- | --- |
-| Q1 | Confirmed Y2 direction and practical proof-of-concept learning | Clear project narrative, current priorities, proof-of-concept progress and visible next decisions |
-| Q2 | MVP Connected Interactions patterns and service information architecture | Draft response / routing logic, IA foundations and learning from practical use cases |
-| Q3 | Delivery-ready use cases | Selected patterns and services ready for more formal testing or implementation |
-| Q4 | Scale pathway | Recommendation on what should scale, continue, stop or require more evidence |
-
-Value drops should be used to socialise meaningful learning and decisions rather than simply report activity.
-
----
-
-## Measurement
-
-Measurement should remain proportionate to the maturity of the work.
-
-| Measure area | What we want to understand |
-| --- | --- |
-| Customer clarity | Can customers understand where to start and what to do? |
-| Customer effort | Is the journey easier to navigate? |
-| Routing effectiveness | Are customers reaching the appropriate pathway? |
-| Support-mode fit | Are customers able to self-serve where appropriate and access help when needed? |
-| Repetition / channel switching | Are customers being forced to restart or move channels unnecessarily? |
-| Knowledge consistency | Are answers aligned across relevant interaction points? |
-| Staff handover | Is sufficient context available when support changes hands? |
-| Reusability | Can the learning be applied beyond the original proof of concept? |
-
-For early proof-of-concept work, qualitative evidence and service logic may be as important as quantitative baseline measures.
-
-Measurement should become more formal as the work progresses toward repeated testing and scale.
-
----
-
-## Strategic alignment
-
-| Area | Contribution |
-| --- | --- |
-| Customer Experience | Creates clearer, more coherent interactions across channels |
-| Vision and Strategy | Converts Channel Strategy into practical service-design capability |
-| Digital Experience | Provides customer-intent and routing logic for digital pathways |
-| Contact Centre / Assisted Service | Clarifies when and how customers require human support |
-| Information Architecture | Creates reusable service and intent structures |
-| Knowledge Management | Supports consistent information across interaction points |
-| CRM / customer context | Identifies future handover and status information needs |
-| Measurement | Moves toward understanding customer journeys rather than isolated channel activity |
-
----
-
-## Stakeholders
-
-| Group | Role |
-| --- | --- |
+| Project | Channel Strategy Y2 |
+| Quarter | Q1 FY26/27 — July to September 2026 |
 | Project lead | Jose Andrade |
-| Channel Strategy working group | Coordinate framing, learning, design decisions and sequencing |
-| UX / Design | Support interaction design and connection to wider design patterns |
-| Digital | Support digital pathways, website connection and feasibility |
-| Contact Centre | Provide assisted-channel and failure-demand insight |
-| Knowledge | Support consistent answers and source-of-truth logic |
-| Information Architecture | Structure customer intent, service offers and pathways |
-| CRM | Support future status, context and handover considerations |
-| Service owners | Validate service rules and test practical patterns |
-| Analytics / evidence partners | Support proportionate baselines and evaluation |
-| Communications | Support customer-facing language and wider content alignment |
-| Leadership | Provide direction, visibility and future scale support |
+| Status | Active |
+| Current focus | Intelligent Front Door Design brief validation |
+| Q1 value-drop status | Direction and first Design case delivered; practical proof-of-concept learning remains partial |
+| Last updated | 21 September 2026 |
 
 ---
 
-## Capabilities required
+## 1. Purpose
 
-| Capability | Why it is needed |
+This is the single lightweight project-management page for Channel Strategy Y2.
+
+It keeps only the information needed to understand:
+
+- what the project is trying to achieve;
+- what value has been delivered;
+- where effort has been used;
+- what has been learned;
+- the material decisions, risks and dependencies; and
+- what happens next.
+
+Detailed evidence and design work remain in the relevant deliverable pages.
+
+Jira manages delivery activity and sprint tasks.
+
+The project should not maintain separate project-level Decision Log, Stakeholder RAID, Risk Register or Ways of Working pages unless repeated use shows that a separate control is genuinely needed.
+
+---
+
+## 2. Project direction
+
+Channel Strategy Y2 is moving City of Melbourne from thinking about individual customer channels toward designing **connected customer interactions**.
+
+The working outcome is a minimum viable **Connected Interactions Framework**, supported by service information architecture and practical evidence from real customer journeys.
+
+The project is intended to improve the organisation's ability to:
+
+- understand customer intent;
+- provide the right information at the right point;
+- route customers to an appropriate service pathway;
+- match support to customer need and complexity;
+- preserve useful context across interactions;
+- use more consistent knowledge; and
+- assess customer journeys rather than isolated channel activity.
+
+The work remains deliberately technology-open.
+
+---
+
+## 3. Q1 value drop
+
+### 3.1. Headline
+
+> **Q1 moved Channel Strategy Y2 from a broad channel-strategy agenda into a testable connected-interactions program, with an evidence-based interaction model, a defined first Design case and a Design brief ready for stakeholder validation.**
+
+The original Q1 intent was to confirm the Y2 direction and generate practical proof-of-concept learning.
+
+The **direction and first Design case are now materially clearer**.
+
+Practical proof-of-concept learning is **partial rather than complete**, so it should not be overstated in Q1 reporting.
+
+### 3.2. What Q1 delivered
+
+| Area | Q1 delivery | Value created | Status |
+| --- | --- | --- | --- |
+| **Y2 direction** | Reframed the work around connected interactions, customer intent and reusable service logic rather than channel-by-channel optimisation | Created a clearer strategic narrative and decision lens for related CX, digital, support, knowledge and service work | Delivered |
+| **IFD Discovery** | Priority-service and contact-reason analysis, current-state interaction flows, pain-point synthesis and a reusable Routine → Guided → Assisted interaction-mode model | Created an evidence base for where customers need information, guidance, specialist support and better continuity | Delivered |
+| **Reusable interaction logic** | Separated customer intent, interaction mode, support pattern and channel; established that modes should be applied at task level | Prevents digital = self-service and phone = assisted assumptions and creates reusable service-design logic | Delivered |
+| **IFD Define** | Progressed from broad routing problems to a connected parking-infringement journey; aligned customer intent with the Service Catalogue; established the Problem → HMW → So That chain | Converted discovery into a specific, decision-ready Design problem | Delivered |
+| **IFD Design brief** | Documented the first Design brief with six requirement areas: Information & knowledge; Intent & routing; Context & continuity; Support & escalation; Identity, authority & authentication; Discovery & off-platform entry | Creates a common brief for stakeholder validation and future-state Design | Ready for validation |
+| **Off-Platform Search** | Discovery framing, test approach and test script prepared; internal testing support arranged | Extended the journey upstream to Google / AI-enabled discovery and avoided wasting effort on an unstable website baseline | Ready / deliberately deferred |
+| **Sustainability proof of concept** | Selected and initiated as a practical IFD learning case | Provides a real service context for testing reusable interaction logic | In progress — reusable learning not yet mature enough to claim as a completed Q1 outcome |
+| **Knowledge Management** | Established the discovery questions around source of truth, taxonomy, ownership, governance and AI-readiness | Clarified knowledge as an enabling capability for connected interactions rather than only a platform question | Early discovery |
+| **Information Architecture** | Established the discovery frame and its dependency on customer intent and IFD priorities | Clarified IA as a cross-channel service-navigation capability rather than a website-only exercise | Early discovery |
+
+### 3.3. Evidence signals carried forward
+
+Q1 discovery produced several useful signals:
+
+- the recurring problem is often not whether customers will use digital, but whether they can **find, understand, complete and confirm the right task**;
+- approximately **77% of identified website issues** in the available Channel Strategy analysis related to customers being unable to find what they needed or not understanding the process;
+- approximately **55% of General Enquiries calls** in the available analysis were information-seeking, suggesting that assisted service can become a navigation layer when information or pathways are unclear; and
+- infringement and other customer tasks can require different support levels even when they sit under the same service or contact-reason category.
+
+These are Q1 discovery signals, not permanent baselines.
+
+Where webpages, forms or service processes have changed, the evidence should be revalidated before being presented as current-state fact.
+
+---
+
+## 4. Resources used in Q1
+
+### 4.1. Resource profile
+
+Q1 used a **targeted internal contribution model** rather than a documented dedicated full-time delivery team.
+
+| Resource | How it was used |
 | --- | --- |
-| Service design | Define customer problems, journeys and service logic |
-| UX / interaction design | Turn service logic into testable customer interactions |
-| Information architecture | Organise customer intent and service pathways |
-| Customer-support expertise | Ensure assisted needs and routing realities are represented |
-| Knowledge design | Support consistent answers |
-| Digital feasibility | Ensure tests can be implemented proportionately |
-| Data / measurement | Provide evidence and evaluate learning |
-| Stakeholder facilitation | Align contributors around decisions rather than artefacts |
+| **Project lead** | Project framing, evidence synthesis, delivery coordination, stakeholder engagement, decision framing and artefact development |
+| **CX / service-design input** | Customer problem framing, journey logic, interaction modes and reusable design patterns |
+| **Contact Centre / customer-support input** | Assisted-channel reality, customer language, repeat contact, escalation and handoff insight |
+| **UX / Digital input** | Digital interaction thinking, website dependencies, design-pattern alignment and feasibility |
+| **Knowledge / Information Architecture input** | Source-of-truth, taxonomy, service naming, intent and reusable information structures |
+| **Service-owner / operational input** | Validation of service rules, pathway reality and constraints where available |
+| **Data / existing research** | Priority-service analysis, contact reasons, current-state flows, web evidence and existing customer / employee research |
+| **Project tools** | Existing organisational tools including Confluence, Jira, Miro / collaboration tools and existing analytics / operational systems |
+
+### 4.2. Cost / effort caveat
+
+A verified Q1 baseline for:
+
+- labour hours;
+- FTE allocation;
+- external expenditure; or
+- total financial cost
+
+is **not recorded in the current project documentation**.
+
+Do not invent a cost or effort number for the Q1 value drop.
+
+If a quantified resource view is required for leadership reporting, it should be added only after validating the relevant time, contractor and financial records.
 
 ---
 
-## Constraints and dependencies
+## 5. Q1 learning
 
-| Dependency | Implication |
+| Learning | Implication |
 | --- | --- |
-| Service-owner participation | Practical tests require validation against real service rules |
-| UX / Digital participation | Proof-of-concept interaction needs to align with wider digital patterns |
-| Information Architecture progress | Routing and knowledge logic need an organising structure |
-| Knowledge clarity | Front-door experiences depend on accurate information |
-| Website change | Off-Platform Search testing should wait for the changed baseline |
-| Available evidence | Some decisions may need to use mixed quantitative and qualitative evidence |
-| Leadership visibility | Future reuse depends on related initiatives understanding the direction |
-| Clear prioritisation | The team needs to protect proof-of-concept work from uncontrolled scope expansion |
+| **The problem is connection, not simply channel count** | The project should design the relationships between discovery, information, transactions, support and handoffs rather than optimise channels independently |
+| **Customer intent and interaction mode are different from channel** | Mode should be assigned to the task and customer need, not inferred from whether the interaction is digital, phone or face-to-face |
+| **The customer journey can begin before an owned channel** | Search, AI-enabled discovery and external information sources belong in the customer-experience model |
+| **Information is a capability across the journey** | Customers need information while they comply, apply, transact and seek support; information should not be treated as a separate destination |
+| **Human support remains part of a good connected experience** | The goal is not channel deflection; assisted support should be used when judgement, complexity or exception handling adds value |
+| **Context should be proportionate** | Preserve enough information to support continuity without assuming that every interaction needs authentication or full history |
+| **Knowledge and IA are enabling layers** | Reliable routing and future AI-enabled interactions depend on authoritative information, ownership and reusable structure |
+| **Real journeys are more useful than abstract framework-building** | Reusable patterns should emerge from practical Design and testing before wider standardisation |
 
 ---
 
-## Key risks and unknowns
+## 6. Capabilities adopted or strengthened in Q1
 
-| Risk / unknown | Impact | Response |
+Q1 developed practical capability in:
+
+- evidence synthesis with explicit confidence and caveats;
+- current-state journey and interaction-flow mapping;
+- service-design problem framing;
+- task-level interaction-mode classification;
+- customer-intent and Service Catalogue mapping;
+- separating identity, authority and authentication needs;
+- translating discovery into design requirement areas;
+- designing for connected digital and assisted interactions;
+- off-platform search and AI-readability test design;
+- decision-focused stakeholder facilitation; and
+- capturing reusable patterns rather than one-off channel fixes.
+
+These should be treated as **capabilities practised and embedded through the work**, not formal training or accreditation.
+
+---
+
+## 7. Current decisions
+
+| Decision | Current position |
+| --- | --- |
+| Y2 direction | Treat Channel Strategy Y2 as a practical connected-interactions enablement program, not a standalone strategy document |
+| First IFD Design case | Use the parking-infringement journey as the first connected-experience Design case |
+| Design quality lens | Use **Comply — fair, transparent and easy to resolve** as the primary lens, with Transact and Apply used where the interaction changes |
+| Design brief | Use the IFD Design page as the single Design brief and phase anchor |
+| Stakeholder validation | Validate the Design brief and agree the Design approach over the next three weeks with Gavin, Tom, Jasmine, Margot and Dennis |
+| Technology | Keep Design technology-open; do not assume chatbot, AI agent, portal replacement or other platform solution |
+| Off-Platform Search | Keep the test ready but defer execution until the changed website baseline is sufficiently stable |
+| Practical testing | Use real service contexts to generate reusable learning before expanding the framework |
+
+---
+
+## 8. Current risks and dependencies
+
+Keep project controls lightweight and focus on the items that could materially change a decision or delivery sequence.
+
+| Risk / dependency | Current response |
+| --- | --- |
+| **Scope expands into enterprise-wide redesign** | Protect the first IFD Design case and only add work that improves the next decision |
+| **Related teams optimise separate channels** | Use the connected-journey framing and six Design requirement areas as common decision logic |
+| **Service rules or statutory constraints are assumed rather than validated** | Validate material rules with the relevant service owners before converting them into requirements |
+| **Stakeholder availability slows validation** | Use targeted conversations and only convene people where their expertise affects a decision |
+| **Knowledge or IA remains fragmented** | Progress only the KMS / IA work that is needed to support authoritative information, intent and routing decisions |
+| **Design becomes technology-led** | Keep problem, context and requirements ahead of solution selection |
+| **Off-platform evidence becomes obsolete during website change** | Resume the prepared test only when the baseline is meaningful |
+| **Q1 evidence is overgeneralised** | Keep evidence status visible and revalidate point-in-time findings where services have changed |
+
+---
+
+## 9. Current stakeholder focus
+
+### Core Design-brief validation group
+
+- Gavin
+- Tom
+- Jasmine
+- Margot
+- Dennis
+- Jose — project lead
+
+### Extended input as required
+
+Bring in UX / Digital, Contact Centre, Knowledge, Information Architecture, service owners, Data, Privacy, Records, Information Security and other specialists only where their input affects a material Design decision.
+
+### Working rule
+
+> **Engage around decisions, not documentation.**
+
+Avoid standing governance or reporting that does not improve clarity, evidence or delivery.
+
+---
+
+## 10. Next three weeks
+
+The immediate focus is to turn the current IFD Design brief into an agreed Design approach.
+
+| Week | Focus | Outcome |
 | --- | --- | --- |
-| The work is interpreted as a technology program | Service and customer problems may be secondary | Continue to lead with Connected Interactions and service logic |
-| Proof-of-concept work becomes one-off prototyping | Learning may not become reusable capability | Explicitly record patterns and design implications |
-| Too many use cases are pursued simultaneously | Discovery loses momentum | Focus on a small number of practical cases |
-| Individual channels continue to optimise separately | End-to-end customer outcomes remain fragmented | Use common intent, routing and response logic |
-| Data is incomplete | Measurement may be uncertain | Record confidence and use proportionate evidence |
-| Knowledge remains fragmented | Customer answers remain inconsistent | Connect work to KMS discovery |
-| Assisted support is overlooked | Digital improvements may exclude customer needs | Include response-mode and escalation logic |
-| Leadership is unaware of the connected direction | Related work may not align | Use meaningful progress playbacks |
+| **Week 1** | Validate the Design brief | Confirm what is sound, what needs refinement and what remains uncertain |
+| **Week 2** | Agree the Design approach | Select the smallest useful set of activities, contributors and evidence needed to answer the priority questions |
+| **Week 3** | Prepare the first Design test | Close material evidence gaps, update the brief and agree the first future-state Design focus and next decision |
+
+The method is deliberately not fixed in advance.
+
+Workshops, one-to-one conversations, service walkthroughs, mapping, concept sketching, prototyping or asynchronous review should be selected only when they help answer a material question.
 
 ---
 
-## Open questions
+## 11. Value-drop roadmap
 
-| Question | Owner | Status |
+| Timing | Value drop | Current interpretation |
 | --- | --- | --- |
-| What exactly should the sustainability proof of concept demonstrate? | Jose Andrade / working group | Open |
-| What is the simplest useful sustainability interaction to test? | UX / Design / working group | Open |
-| Which sustainability customer intents should be prioritised? | Working group / service input | Open |
-| What is the validated parking / infringement review problem statement? | Jose Andrade | In progress |
-| Which additional services should become MVP journeys? | Working group | Open |
-| What is the minimum response-mode model? | Working group | Open |
-| What service information architecture is required? | IA workstream | Open |
-| What evidence is sufficient to assess early proof-of-concept value? | Working group | Open |
-| When will the website baseline be stable enough to restart Off-Platform Search? | Relevant digital owner | Waiting |
-| What recurring value-drop / playback rhythm will best socialise the work? | Jose Andrade | Open |
+| **Q1** | Confirmed Y2 direction and practical learning | Connected-interactions direction established; IFD discovery and Define translated into a Design-ready first case; practical POC learning remains partial |
+| **Q2** | Tested connected-interaction patterns | Validate the parking Design brief, test future-state interaction patterns and strengthen the service-information / knowledge foundations needed to support them |
+| **Q3** | Delivery-ready use cases | Progress selected tested patterns into practical delivery or implementation decisions |
+| **Q4** | Scale pathway | Recommend what should scale, continue, stop or require more evidence |
+
+Value drops should communicate **meaningful learning, capability and decisions**, not activity volume.
 
 ---
 
-## Current next steps
+## 12. Q1 executive summary
 
-| Priority | Next step | Status |
-| --- | --- | --- |
-| 1 | Define sustainability proof-of-concept learning questions | Next |
-| 2 | Bring UX / design input into the sustainability work | Next |
-| 3 | Progress the sustainability proof of concept | Planned / in progress |
-| 4 | Refine the parking / infringement review problem statement toward Design | In progress |
-| 5 | Capture reusable Intelligent Front Door learning | Planned |
-| 6 | Keep Off-Platform Search test preparation ready | Ready |
-| 7 | Reconfirm website readiness and restart Off-Platform Search | Waiting |
-| 8 | Establish a lightweight recurring progress / value-drop playback rhythm | Planned |
-
----
-
-## Summary narrative
-
-Channel Strategy Y2 is moving from broad discovery toward practical testing.
-
-The current approach is to use real service contexts to develop the Connected Interactions Framework rather than fully designing the framework in isolation.
-
-Sustainability provides the immediate Intelligent Front Door proof-of-concept opportunity.
-
-Parking / infringement review provides a complementary problem-framing and future design case.
-
-Off-Platform Search is prepared but deliberately deferred until the website environment provides a more meaningful baseline.
-
-Together, these activities should help the project learn how customer intent, information, routing, support modes, interaction design and channel handover can work as one connected service experience.
+> **Q1 established the working architecture for Channel Strategy Y2.**
+>
+> The project moved from broad channel questions to a connected-interactions approach grounded in customer intent, interaction modes, information, routing, continuity and appropriate human support.
+>
+> Intelligent Front Door Discovery created the strongest body of evidence, Define narrowed that evidence into the parking-infringement connected experience, and Design now has a stakeholder-ready brief with six initial requirement areas.
+>
+> Off-Platform Search is prepared but deliberately waiting for a meaningful website baseline. Knowledge Management and Information Architecture have been positioned as enabling foundations but remain earlier in discovery.
+>
+> The main Q2 decision is no longer **what is Channel Strategy Y2?**
+>
+> It is **which connected-experience patterns are useful enough to test, validate and reuse?**
