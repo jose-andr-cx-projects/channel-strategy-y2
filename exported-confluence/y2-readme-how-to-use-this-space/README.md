@@ -5,12 +5,14 @@ confluence_page_id: "1348272130"
 confluence_space_id: "68452354"
 confluence_status: "current"
 confluence_url: "https://jira-cityofmelbourne.atlassian.net/spaces/cex/pages/1348272130/0.+Y2+README+-+How+to+use+this+space"
-confluence_version: "7"
+confluence_version: "8"
 repository_path: "y2-readme-how-to-use-this-space/README.md"
 generated: true
 ---
 
 > **Source note:** Generated from Confluence. Do not edit directly while Confluence remains the source of truth.
+
+# 0. Y2 README - How to use this space
 
 # 0. Y2 README - How to use this space
 
@@ -60,29 +62,25 @@ Channel Strategy Y2
 - README — How to use this space
 - Project Management — scope, value drops, current decisions, risks, stakeholders and next steps
 - Intelligent Front Door
-
-  - Discover
-  - Define
-  - Design
-  - Deliver
+- Discover
+- Define
+- Design
+- Deliver
 - Knowledge Management System
-
-  - Discover
-  - Define
-  - Design
-  - Deliver
+- Discover
+- Define
+- Design
+- Deliver
 - Information Architecture
-
-  - Discover
-  - Define
-  - Design
-  - Deliver
+- Discover
+- Define
+- Design
+- Deliver
 - Off-Platform Search
-
-  - Discover
-  - Define
-  - Design
-  - Deliver
+- Discover
+- Define
+- Design
+- Deliver
 
 ---
 
@@ -174,23 +172,20 @@ Confluence is organised around the project documentation model:
 Channel Strategy Y2
 
 - Deliverable parent pages
-
-  - Discover
-  - Define
-  - Design
-  - Deliver
+- Discover
+- Define
+- Design
+- Deliver
 
 Jira is organised around delivery management:
 
 Initiative
 
 - Deliverable
+- Epic
 
-  - Epic
-
-    - User Story / Task
-
-      - Sub-task
+  - User Story / Task
+  - Sub-task
 
 For Channel Strategy Y2, the Jira structure is:
 
@@ -234,12 +229,10 @@ The agreed Jira hierarchy is:
 Initiative
 
 - Deliverable
+- Epic
 
-  - Epic
-
-    - User Story / Task
-
-      - Sub-task
+  - User Story / Task
+  - Sub-task
 
 ### Current Initiative
 
@@ -372,12 +365,10 @@ This means the label flows through the hierarchy:
 Initiative
 
 - Deliverable
+- Epic
 
-  - Epic
-
-    - User Story / Task
-
-      - Sub-task
+  - User Story / Task
+  - Sub-task
 
 ### Why this matters
 

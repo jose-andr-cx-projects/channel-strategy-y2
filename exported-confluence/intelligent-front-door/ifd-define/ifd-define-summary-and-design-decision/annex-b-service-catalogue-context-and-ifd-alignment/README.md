@@ -6,7 +6,7 @@ confluence_space_id: "68452354"
 confluence_status: "current"
 confluence_url: "https://jira-cityofmelbourne.atlassian.net/spaces/cex/pages/1518206978/Annex+B+-+Service+Catalogue+Context+and+IFD+Alignment"
 confluence_version: "2"
-repository_path: "intelligent-front-door/ifd-define/ifd-draft-problem-statement-validation/annex-b-service-catalogue-context-and-ifd-alignment/README.md"
+repository_path: "intelligent-front-door/ifd-define/ifd-define-summary-and-design-decision/annex-b-service-catalogue-context-and-ifd-alignment/README.md"
 generated: true
 ---
 

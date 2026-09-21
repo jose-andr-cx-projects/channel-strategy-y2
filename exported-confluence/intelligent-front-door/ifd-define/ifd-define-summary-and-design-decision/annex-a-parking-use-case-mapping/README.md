@@ -6,7 +6,7 @@ confluence_space_id: "68452354"
 confluence_status: "current"
 confluence_url: "https://jira-cityofmelbourne.atlassian.net/spaces/cex/pages/1517912074/Annex+A+-+Parking+Use-Case+Mapping"
 confluence_version: "3"
-repository_path: "intelligent-front-door/ifd-define/ifd-draft-problem-statement-validation/annex-a-parking-use-case-mapping/README.md"
+repository_path: "intelligent-front-door/ifd-define/ifd-define-summary-and-design-decision/annex-a-parking-use-case-mapping/README.md"
 generated: true
 ---
 
