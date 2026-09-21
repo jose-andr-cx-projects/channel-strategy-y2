@@ -1,5 +1,5 @@
 ---
-title: "IFD-Draft Problem Statement Validation"
+title: "IFD - Define Summary and Design Decision"
 source_system: confluence
 confluence_page_id: "1517682689"
 confluence_space_id: "68452354"
@@ -12,83 +12,216 @@ generated: true
 
 > **Source note:** Generated from Confluence. Do not edit directly while Confluence remains the source of truth.
 
-# IFD-Draft Problem Statement Validation
+# IFD - Define Summary and Design Decision
 
-## 1.1. Purpose
+## 1. Purpose
 
-This page brings the current Intelligent Front Door problem statement into **Define** for stakeholder review and validation.
+This page summarises the work completed through Intelligent Front Door Define, preserves how the problem framing evolved, and records the decision and inputs carried forward into Design.
 
-The intent is not to approve a solution or technical architecture.
+The purpose of Define was not to approve a technology solution.
 
-The purpose of this playback is to test whether we have:
+It was to reduce uncertainty enough to answer:
 
-- framed the right customer problem;
-- understood where the problem occurs;
-- set an appropriate initial boundary for the Intelligent Front Door;
-- identified the right questions to take forward into Design; and
-- selected a useful set of Parking scenarios through which to test the proposition.
-
-The output of stakeholder validation will be a refined problem statement and clearer Define direction.
+> **What is the first clearly defined Intelligent Front Door opportunity we should take into Design?**
 
 ---
 
-## 1.2. Where we are
+## 2. Define outcome
 
-Discovery has moved the Intelligent Front Door away from a generic concept of creating a new "front door".
+Define has narrowed the Intelligent Front Door from a broad channel and routing concept into a specific connected-experience problem that can now be explored through Design.
 
-The emerging opportunity is more specific:
+The current direction is:
 
-> Help customers recognise what they are trying to do, understand what they need, and enter the right existing service pathway with an appropriate level of support.
+> **Use the parking-infringement journey as the first practical Design case for testing how City of Melbourne can move from fragmented interactions toward a connected customer experience.**
 
-Parking is being used as the first practical lens because it contains several different customer intents and interaction patterns within one service domain.
+The journey is the **container**.
 
-This allows us to test whether a common front-door approach could work across different situations without assuming that every journey should behave in the same way.
+Interaction **modes** are used as quality lenses for defining what good should look like at different moments within that journey.
+
+The first Design iteration will use **Comply** as the primary lens, with **Transact** and **Apply** becoming relevant where the customer's interaction changes.
+
+For Comply, the current experience ambition is:
+
+> **Fair, transparent and easy to resolve.**
 
 ---
 
-# 2. Draft problem statement
+## 3. What we did during Define
 
-> **Customers can struggle to recognise and navigate the right parking or infringement pathway because services are not always presented around the task they are trying to complete.**
+The Define work progressed through several stages rather than producing a problem statement in one step.
+
+### 3.1. Started from Discovery themes
+
+Discovery identified recurring issues around:
+
+- unclear information;
+- difficulty finding the right pathway;
+- fragmented customer context;
+- channel switching;
+- avoidable contact; and
+- inconsistent support across interactions.
+
+These themes were useful signals but too broad to design against directly.
+
+### 3.2. Considered candidate journeys
+
+The Define Workshop considered several possible service areas, including:
+
+- residential parking permits;
+- infringement reviews and enquiries;
+- payments and account management; and
+- rates and property enquiries.
+
+The purpose was to identify a practical case through which the Intelligent Front Door proposition could be tested, not to redesign every candidate journey.
+
+### 3.3. Used Parking as the first practical lens
+
+Parking provided a useful domain because it contains multiple customer intents, service pathways and interaction patterns within one recognisable service context.
+
+The working set of customer intents included:
+
+1. apply for or manage a parking permit;
+2. request a review of a fine;
+3. nominate another driver;
+4. report a parking issue;
+5. find parking information or understand rules; and
+6. make a general parking enquiry.
+
+This exposed the need to distinguish customer intent from internal service structures.
+
+### 3.4. Mapped customer intent to existing service structures
+
+The Parking use-case mapping tested the relationship between:
+
+> **Service Area → Service → Service Offering → Customer Intent / Contact Reason → Interaction Mode → Information Need → Support Need → Authentication Need → Existing Pathway**
+
+This helped separate:
+
+- what the customer is trying to achieve;
+- what City of Melbourne calls and owns the service;
+- what information is required;
+- what level of support may be needed;
+- when identity or authority matters; and
+- which existing pathway should be used.
+
+### 3.5. Connected the Intelligent Front Door to the Service Catalogue
+
+The Service Catalogue work clarified that the two models solve different problems.
+
+The Service Catalogue describes how City of Melbourne organises and manages its services.
+
+The Intelligent Front Door should help translate customer language and intent into that service model without requiring the customer to understand the organisation's taxonomy.
+
+The emerging relationship is:
+
+> **customer language → intent → service → authoritative information → pathway**
+
+This is an important reusable capability to test, not a confirmed enterprise requirement.
+
+### 3.6. Shifted from individual use cases to the broader parking-infringement journey
+
+Further refinement showed that focusing only on an infringement-review form or individual service pathway was too narrow.
+
+From the customer's perspective, dealing with a parking infringement can involve a connected sequence of needs:
+
+- understand what happened;
+- understand the relevant rule;
+- work out what options apply;
+- decide what to do;
+- determine what information or evidence is required;
+- pay, nominate or request a review;
+- understand what happens next; and
+- seek help when the situation is not straightforward.
+
+The parking-infringement journey therefore became the more useful container for Design.
+
+### 3.7. Introduced modes as quality lenses
+
+The journey contains different kinds of interaction.
+
+Rather than designing a separate experience for every service pathway, the work began using interaction modes to ask:
+
+> **What should a good interaction look like at this moment?**
+
+For the first Design iteration, **Comply** is the primary lens.
+
+**Transact** and **Apply** remain relevant where the customer moves into payment, review or another action pathway.
+
+The intent is not to design three separate modes.
+
+The intent is to test whether the overall journey remains connected as the customer's interaction changes.
+
+### 3.8. Deepened the problem through stakeholder challenge
+
+Stakeholder refinement identified a deeper issue than navigation alone.
+
+Different customers can arrive with materially different circumstances, while the current experience may require them to interpret and navigate similar information, review and support pathways themselves.
+
+Examples raised for further exploration included:
+
+- customers who misunderstood a parking rule;
+- customers affected by a system or equipment issue;
+- customers dealing with an exceptional circumstance;
+- customers who simply want to resolve the infringement quickly; and
+- repeat or returning review interactions.
+
+These examples remain at different levels of evidence maturity.
+
+They should be treated as context to investigate in Design, not as confirmed requirements.
+
+### 3.9. Reframed the opportunity from fragmented to connected
+
+The work therefore moved from:
+
+> **How do we help customers navigate the existing service structure?**
+
+toward:
+
+> **How do we create a connected experience that understands enough about the customer's intent and relevant context to guide them appropriately?**
+
+This also connects customer experience and operational value.
+
+The objective is not simply to reduce Contact Centre demand.
+
+The objective is to reduce the need for customers to contact staff because fragmented information, routing or continuity has failed them, while preserving appropriate human support where complexity requires it.
+
+### 3.10. Extended the front door beyond owned channels
+
+The customer journey can begin before a person reaches a City of Melbourne website.
+
+Potential entry points include:
+
+- Google search;
+- AI-enabled search;
+- information on the infringement notice;
+- another City of Melbourne channel; or
+- another external information source.
+
+Off-platform discovery is therefore a potential part of the Intelligent Front Door response rather than a separate customer journey.
+
+The Design phase should test how authoritative City of Melbourne information and pathways can support customers from the point where their intent first emerges.
+
+---
+
+## 4. Current problem statement
+
+> **People dealing with a parking infringement can experience a fragmented journey across information, payment, review and support pathways.**
 >
-> This can create avoidable search, navigation and support effort, particularly when customers need to understand eligibility, evidence, next steps, status or which level of support applies.
+> That journey may begin before they reach a City of Melbourne channel — through Google, AI search, information on the infringement notice or another source — as they try to understand what happened and what they should do next.
 >
-> **The Intelligent Front Door should help customers identify their intent, understand what they need to know, and enter the right existing pathway with the appropriate level of support and authentication — without redesigning the underlying business process in the initial phase.**
-
-### 2.1.1. Validation status
-
-**Draft — stakeholder validation required**
-
-This statement is intended to provide a shared starting point for Define. It should change if stakeholder knowledge or further evidence shows that we have framed the problem incorrectly.
+> As they move through the experience, they may need to understand the rule, identify which options apply to their circumstances, determine what information or evidence is required, decide whether to pay, nominate or request a review, and understand what happens next.
+>
+> The experience does not always recognise their intent or circumstances early enough to connect these interactions into a clear pathway. This can create unnecessary searching, uncertainty, channel switching and repeated contact, while customers with materially different circumstances may encounter similar pathways even when their needs differ.
+>
+> **The opportunity is to move from fragmented interactions to a connected compliance experience that begins wherever the customer begins and guides them appropriately through to resolution.**
 
 ---
 
-# 3. The customer problem we are trying to solve
+## 5. How Might We
 
-The working hypothesis is that some customer effort occurs **before the underlying service transaction has really begun**.
+> **How might we create a connected experience for people dealing with a parking infringement — beginning with how they discover and understand their options through search, AI and City of Melbourne information — that recognises their intent and relevant circumstances early enough to guide them confidently into the right pathway and level of support?**
 
-Customers first need to work out:
-
-1. what they are actually trying to do;
-2. which City of Melbourne service or pathway relates to that need;
-3. what applies to their situation;
-4. what information or evidence they need;
-5. whether they need to identify themselves;
-6. whether they can continue independently or need additional support; and
-7. where they should go next.
-
-When these questions are difficult to resolve, customers may need to search, interpret organisational language, move between channels or seek staff assistance simply to find the correct starting point.
-
-The Intelligent Front Door opportunity is therefore not just about providing another entry point.
-
-It is about improving the **decision-making that happens before pathway entry**.
-
----
-
-# 4. Define question
-
-> **How might we help customers recognise and navigate the right parking or infringement task, understand what is required, and enter the appropriate existing pathway with the right information, support and authentication?**
-
-This question deliberately keeps the solution open.
+The question deliberately keeps the solution open.
 
 It does not assume:
 
@@ -100,331 +233,159 @@ It does not assume:
 
 ---
 
-# 5. Proposed initial scope
+## 6. So that
 
-For the initial phase, the Intelligent Front Door would focus on:
+> **So that customers can understand what applies to them, know what to do next and resolve their situation with less unnecessary effort and channel switching, while people with complex or exceptional circumstances can access appropriate guidance or human support.**
+>
+> **And so that City of Melbourne can reduce avoidable repeat contact and staff effort by connecting interactions more effectively, rather than relying on the Contact Centre to repair a fragmented experience.**
 
-### 5.1.1. Findability
-
-Help the customer recognise where their need belongs.
-
-### 5.1.2. Intent
-
-Understand what the customer is trying to achieve rather than requiring them to understand City of Melbourne's internal service structure.
-
-### 5.1.3. Understanding
-
-Provide the minimum information required for the customer to make the next decision confidently.
-
-### 5.1.4. Routing
-
-Direct the customer into the appropriate existing service pathway.
-
-### 5.1.5. Support
-
-Recognise when the customer can proceed independently and when additional guidance or human support may be required.
-
-### 5.1.6. Authentication
-
-Ask the customer to identify or authenticate themselves only when the task or existing service requires it.
+This keeps customer value and service value connected without treating reduced contact as the primary customer outcome.
 
 ---
 
-# 6. What is not being proposed at this stage
+## 7. Evidence position
 
-The initial Intelligent Front Door work is **not** intended to:
+**Overall status: Partially validated — suitable to progress into Design with explicit evidence gaps.**
 
-- redesign underlying business processes;
-- change service rules or policy;
-- redesign back-office workflows;
-- determine detailed technical architecture;
-- define a final authentication solution; or
-- replace existing service delivery platforms.
+The broad problem is supported by Discovery and Define work around:
 
-Those opportunities may emerge later, but they should not be assumed as requirements of the initial Define work.
+- unclear information and next steps;
+- routing and pathway uncertainty;
+- fragmented context across interactions;
+- channel switching and repeated contact;
+- different information, support and authentication needs across customer intents; and
+- the need to distinguish customer circumstances where those circumstances materially change the appropriate response.
 
-The immediate question is:
+The following should remain visible as hypotheses or open questions until further validated:
 
-> **Can we make it easier for customers to understand and enter the services we already provide?**
+- which customer circumstances most materially change the pathway;
+- the prevalence and causes of repeat review interactions;
+- exact operational and statutory constraints;
+- authoritative information sources for each interaction;
+- identity, authority and authentication requirements;
+- status and follow-up limitations;
+- criteria for moving from self-service or Guided support to Assisted support; and
+- which off-platform information patterns can be influenced reliably.
 
----
-
-# 7. A different way of thinking about the front door
-
-Today, services can naturally be organised around organisational structures, service offerings, webpages, forms and systems.
-
-Customers do not necessarily begin there.
-
-They begin with an intent:
-
-> "I need a parking permit."
-
-> "Someone else was driving."
-
-> "I think this fine is wrong."
-
-> "There is a car blocking something."
-
-> "Can I park here?"
-
-The emerging Intelligent Front Door model therefore introduces a customer-intent layer in front of existing service pathways.
-
-### 7.1.1. Working model
-
-**Service Area → Service → Service Offering → Customer Intent / Contact Reason → Interaction Mode → Information Need → Support Need → Authentication Need → Existing Pathway**
-
-The formal service catalogue remains important.
-
-The proposition is that customers should not need to understand that catalogue before they can successfully use it.
+Do not convert these items directly into Design requirements without validation.
 
 ---
 
-# 8. Information is required across the experience
+## 8. What Define produced
 
-One important Define principle is that **information need is not a separate interaction type**.
+Define produced more than a revised problem statement.
 
-Customers need information while they:
+It established:
 
-- apply;
-- comply;
-- report an issue;
-- transact;
-- access a service;
-- have a say; or
-- take part.
+- a specific first customer journey for Intelligent Front Door Design;
+- a shift from internal service boundaries to the customer's broader need;
+- a reusable **journey + modes** design approach;
+- **Comply** as the first mode-specific quality lens;
+- a working relationship between customer intent and the Service Catalogue;
+- recognition that information is required across interaction modes rather than being a separate destination;
+- a clearer connection between customer context and appropriate routing or support;
+- recognition that the Intelligent Front Door can begin off-platform;
+- a direct relationship between better customer experience and reduced avoidable service effort;
+- a clear **Problem → How Might We → So That** value chain; and
+- explicit evidence gaps for Design to investigate.
 
-Across these interactions they may need to know:
+### 8.1. Define performance / value progression
 
-- what applies to them;
-- what they need before starting;
-- what happens next;
-- what evidence is required;
-- what happens after submission;
-- status or progress where relevant; and
-- where to get help.
-
-This means information should be treated as a capability that supports multiple customer journeys rather than as a separate destination customers must find.
-
----
-
-# 9. Parking as the first validation lens
-
-The current working set of Parking intents is:
-
-1. **Apply for or manage a parking permit**
-2. **Request a review of a fine**
-3. **Nominate another driver**
-4. **Report a parking issue**
-5. **Find parking information / understand rules**
-6. **General parking enquiry**
-
-These scenarios deliberately contain different levels of complexity, information, support and authentication.
-
-They allow us to test whether one common Intelligent Front Door model can recognise different customer needs and then adapt the pathway accordingly.
+| Refinement | What changed | Value created |
+| --- | --- | --- |
+| Broad Discovery themes | Started with generic information, routing, context and contact issues | Established the problem space |
+| Candidate journeys | Considered Parking permits, infringements, payments and rates | Made prioritisation explicit |
+| Parking use cases | Tested six customer intents against service, information, support and authentication needs | Turned broad findings into concrete service examples |
+| Service Catalogue alignment | Separated customer intent from organisational service taxonomy | Connected IFD to an existing organisational model |
+| Parking-infringement journey | Shifted from individual forms/services to the broader customer need | Created an end-to-end customer container for Design |
+| Mode-led framing | Introduced Comply, Transact and Apply as quality lenses | Created reusable standards for different interaction moments |
+| Context refinement | Identified that materially different circumstances may require different pathways or support | Exposed a deeper Design problem than navigation alone |
+| Connected-experience framing | Reframed the opportunity from channel optimisation to fragmented → connected experience | Aligned customer and operational value |
+| Off-platform entry | Recognised Google, AI search and other external sources as potential starting points | Connected Off-Platform Search to the IFD experience |
+| Current Design framing | Consolidated Problem, How Might We and So That | Provides a clear starting frame for Design |
 
 ---
 
-# 10. What the first use cases are showing us
+## 9. Define decision
 
-## 10.1. Parking permits
+**Decision: Progress the parking-infringement connected experience into Intelligent Front Door Design.**
 
-The front door may need to:
+The first Design iteration will use the parking-infringement journey as the container and **Comply** as the primary quality lens.
 
-**Identify intent → distinguish the permit task → clarify eligibility or permit type where necessary → provide minimum information → route to the existing permit pathway**
+Design will explore how a connected experience could:
 
-Potential support pattern:
+- recognise customer intent;
+- identify relevant context;
+- provide appropriate and authoritative information;
+- guide customers into the right existing pathway;
+- maintain useful continuity as the interaction changes;
+- make appropriate human support available;
+- use identity, authority and authentication proportionately; and
+- connect off-platform discovery with City of Melbourne-owned interactions.
 
-**Routine → Guided**
+The Design phase will **not** begin by selecting technology or redesigning the entire parking service.
 
-Key question:
-
-> At what point does City of Melbourne genuinely need to know who this customer is in order for the permit task to progress?
-
----
-
-## 10.2. Infringement review
-
-The front door may need to:
-
-**Understand the customer's intended action → distinguish review from payment, nomination, information or complaint → explain requirements → enter the existing review pathway → escalate complex circumstances where appropriate**
-
-Potential support pattern:
-
-**Guided → Assisted**
-
-Key question:
-
-> What does City of Melbourne need to confirm about the infringement and the person acting before the review pathway can safely proceed?
+It will first develop the context, constraints and requirements needed to test what a connected experience should enable.
 
 ---
 
-## 10.3. Driver nomination
+## 10. What moves into Design
 
-The front door may need to:
+### 10.1. Confirmed direction
 
-**Recognise responsibility-transfer intent → distinguish nomination from disputing the fine → explain requirements → confirm necessary information or authority → route into the existing nomination pathway**
+- Parking infringement is the first connected-experience Design case.
+- The journey is the container.
+- Modes are interaction-quality lenses.
+- Comply is the primary initial lens.
+- **Fragmented → connected** is the strategic experience shift.
+- Customer experience improvement and reduced avoidable service effort are connected value outcomes.
+- Off-platform discovery can form part of the front-door experience.
+- Existing service pathways remain visible rather than being assumed away.
 
-Potential support pattern:
+### 10.2. To be developed and validated in Design
 
-**Routine → Guided**
-
-Emerging principle:
-
-> **Intent disambiguation before pathway selection.**
-
----
-
-## 10.4. Reporting a parking issue
-
-The front door may need to:
-
-**Classify the issue → determine City of Melbourne responsibility → determine urgency → capture minimum routing information → enter the existing Parking Enforcement pathway**
-
-Potential support pattern:
-
-**Routine → Guided**
-
-Emerging pattern:
-
-> **Classify issue → determine responsibility → determine urgency → route.**
+- customer context and materially different circumstances;
+- operational and statutory constraints;
+- information and knowledge requirements;
+- routing requirements;
+- support and escalation requirements;
+- identity, authority and authentication requirements;
+- continuity and handoff requirements;
+- off-platform information requirements;
+- future-state interaction concepts; and
+- evidence needed to test whether the proposed experience is useful, fair, feasible and reusable.
 
 ---
 
-# 11. Emerging proposition
+## 11. Supporting Define artefacts
 
-The Intelligent Front Door may not need to create one universal customer journey.
+Detailed working evidence remains in the supporting Define pages and annexes.
 
-Instead, it could provide a reusable decision layer that asks only enough questions to determine:
+### IFD - Define Workshop
 
-**What is the customer trying to do?**
+Documents the original Define approach, candidate journeys, interaction schema and workshop method.
 
-↓
+### Annex A - Parking Use-Case Mapping
 
-**What do they need to understand?**
+Documents the six Parking customer intents and their working relationships to service offerings, interaction modes, information needs, support needs, authentication needs and existing pathways.
 
-↓
+### Annex B - Service Catalogue Context and IFD Alignment
 
-**Which pathway applies?**
+Documents how customer intent and Intelligent Front Door routing may connect to the City of Melbourne Service Catalogue without exposing organisational taxonomy to customers.
 
-↓
-
-**How much support is required?**
-
-↓
-
-**Is authentication actually required yet?**
-
-↓
-
-**Enter the existing service pathway**
-
-The value would come from making this logic consistent and reusable across services while allowing individual service pathways to retain their necessary rules and processes.
-
-This is a proposition to test, not yet a confirmed design.
+These artefacts preserve the analysis and validation trail without requiring this phase summary to reproduce every working detail.
 
 ---
 
-# 12. What we need stakeholders to validate
+## 12. Define exit position
 
-During the playback, we want to test five things.
+Define has reduced the problem sufficiently to begin Design, but it has not removed all uncertainty.
 
-### 12.1.1. Problem
+The Design phase should therefore begin with a clear distinction between:
 
-**Does this describe a real and meaningful customer problem?**
+- **confirmed direction**;
+- **partially validated evidence**;
+- **working hypotheses**; and
+- **open questions**.
 
-What is missing, overstated or incorrectly framed?
-
-### 12.1.2. Boundary
-
-**Is improving findability, understanding and routing into existing pathways a useful initial boundary?**
-
-Are we excluding something essential?
-
-### 12.1.3. Service reality
-
-**Does the proposed logic reflect how these Parking services actually work?**
-
-Where does the model oversimplify the service?
-
-### 12.1.4. Support and authentication
-
-**Are we asking for customer information, authentication or staff intervention at the right points?**
-
-Where are there policy, operational, privacy or risk requirements we have not yet captured?
-
-### 12.1.5. Transferability
-
-**If this worked for Parking, does the underlying model appear reusable for other City of Melbourne services?**
-
-What would need to remain service-specific?
-
----
-
-# 13. Specific questions still open
-
-The following items require further validation:
-
-- exact Service Offering alignment for driver nomination;
-- authoritative sources for Parking knowledge and service information;
-- authentication requirements for individual pathways;
-- mandatory identity or authority checks;
-- where anonymous or low-authentication interactions are appropriate;
-- existing status and follow-up capabilities;
-- common customer abandonment or failure points;
-- criteria for moving from Guided to Assisted support;
-- customer language that best represents current service offerings; and
-- whether some customer intents should be combined or separated.
-
-These should remain visible as open questions rather than being treated as confirmed requirements.
-
----
-
-# 14. Decision sought from this playback
-
-The immediate decision is **not approval of an Intelligent Front Door solution**.
-
-We are seeking stakeholder agreement on whether:
-
-> **This is the right problem and a useful boundary to take forward into Design.**
-
-Following validation, we should be able to:
-
-- refine the problem statement;
-- confirm or adjust the Parking use cases;
-- identify incorrect assumptions;
-- confirm important operational constraints;
-- prioritise remaining evidence gaps; and
-- move into Design with a clearer problem and testable service logic.
-
----
-
-# 15. Rovo presentation brief
-
-Create a concise stakeholder playback presentation from this page.
-
-The presentation should help a mixed operational, CX, service design and decision-making audience understand and challenge the proposed Define direction.
-
-Use approximately **8–10 slides**.
-
-Suggested story:
-
-1. **Why we are here** — Discovery has moved us from a broad Intelligent Front Door concept to a specific problem to validate.
-2. **The draft problem** — present the problem statement clearly.
-3. **Where customer effort occurs** — show the decisions customers need to make before entering a service pathway.
-4. **What we are proposing to focus on** — findability, intent, understanding, routing, support and authentication.
-5. **What we are not proposing** — make the initial scope boundary explicit.
-6. **The emerging front-door model** — show customer intent connecting to existing City of Melbourne services and pathways.
-7. **Parking as the test case** — show the six priority customer intents.
-8. **What the use cases are teaching us** — illustrate the different routing patterns using 2–4 examples.
-9. **What remains uncertain** — highlight assumptions and open questions.
-10. **What we need from stakeholders** — validate the problem, boundary, service reality, support/authentication logic and transferability.
-
-Presentation principles:
-
-- one clear message per slide;
-- prioritise diagrams and simple flows over dense text;
-- clearly distinguish **confirmed current understanding**, **working hypothesis** and **open question**;
-- avoid presenting the Intelligent Front Door as a predetermined technology solution;
-- keep the existing service pathways visible;
-- use Parking examples to make the concept tangible;
-- finish with the stakeholder validation questions rather than a solution recommendation.
+The next task is to deepen the **context and constraints** around the Comply experience before converting the emerging direction into Design requirements.
