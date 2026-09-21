@@ -47,7 +47,7 @@ Jira is where we manage delivery activity, track progress, assign work and manag
 
 | Tool | What it is for | What should live there |
 | --- | --- | --- |
-| Confluence | Project knowledge and documentation | Project overview, deliverables, 4D artefacts, decisions, risks, RAID, ways of working, frameworks and agreed outputs |
+| Confluence | Project knowledge and documentation | Project overview, one lightweight Project Management page, deliverable / 4D artefacts, frameworks and agreed outputs |
 | Jira | Delivery and task management | Initiative, deliverables, epics, user stories, tasks, subtasks, sprint planning, owners, priorities, blockers and delivery progress |
 | Other tools / folders | Supporting and working material | Drafts, workshop boards, raw research, exported reports, spreadsheets, reference material and temporary working files |
 
@@ -58,11 +58,7 @@ Jira is where we manage delivery activity, track progress, assign work and manag
 Channel Strategy Y2
 
 - README — How to use this space
-- Scope and Plan
-- Decision Log
-- Stakeholder RAID Log
-- Risk Register
-- Ways of Working
+- Project Management — scope, value drops, current decisions, risks, stakeholders and next steps
 - Intelligent Front Door
 
   - Discover
@@ -93,6 +89,8 @@ Channel Strategy Y2
 ## Why this structure
 
 This structure keeps the space clear and scalable.
+
+Project-level management is deliberately consolidated into **one Project Management page** rather than separate scope, decision, RAID, risk and ways-of-working pages. Only material current controls are retained.
 
 Each deliverable has one parent page that acts as the control page for that body of work.
 
