@@ -275,10 +275,10 @@ The current requirement areas are:
 | --- | --- | --- |
 | **Information & knowledge** | Give customers the authoritative information needed to understand what happened, what applies, what options exist, what they need to provide and what happens next | Initial requirement set documented |
 | **Intent & routing** | Recognise what the customer is trying to resolve and guide them toward the appropriate existing pathway without requiring knowledge of internal service structures | Initial requirement set documented |
-| **Context & continuity** | Retain or reconnect relevant context as customers move between information, digital pathways and human support | In development |
-| **Support & escalation** | Match guidance and human support to the customer's circumstances and complexity | To develop |
-| **Identity, authority & authentication** | Establish identity or authority only when necessary for the action being taken | To develop |
-| **Discovery & off-platform entry** | Support accurate discovery through search, AI-enabled search, notices and owned channels while guiding customers toward authoritative City of Melbourne pathways | To develop |
+| **Context & continuity** | Retain or reconnect relevant context as customers move between information, digital pathways and human support | Initial requirement set documented |
+| **Support & escalation** | Match guidance and human support to the customer's circumstances and complexity | Initial requirement set documented |
+| **Identity, authority & authentication** | Establish identity or authority only when necessary for the action being taken | Initial requirement set documented |
+| **Discovery & off-platform entry** | Support accurate discovery through search, AI-enabled search, notices and owned channels while guiding customers toward authoritative City of Melbourne pathways | Initial requirement set documented |
 
 These are **design requirement areas**, not detailed business or technical requirements.
 
@@ -797,7 +797,442 @@ Better continuity creates value when the journey feels connected across interact
 
 ---
 
-## 10. Evidence discipline
+## 10. Requirement area 4 — Support & escalation
+
+### 10.1. Customer need
+
+> **Help me complete the task independently when my situation is straightforward, but make it clear how I can get more guidance or human support when the situation becomes difficult, uncertain or exceptional.**
+
+A connected experience should not assume that every customer needs the same level of support.
+
+Some customers may be able to understand the infringement and complete the next action with minimal guidance.
+
+Others may need more support because:
+
+- they cannot confidently determine which option applies;
+- their circumstances do not appear to fit the standard pathway;
+- they are unsure what evidence or information is required;
+- they are returning after an earlier interaction or decision;
+- the available digital pathway does not resolve their need; or
+- the interaction has become complex or emotionally difficult.
+
+### 10.2. Service need
+
+City of Melbourne needs a support model that helps routine interactions remain simple while recognising when additional guidance or human assistance adds value.
+
+The support model should:
+
+- avoid forcing customers into assisted channels when self-service is sufficient;
+- avoid forcing customers to remain in self-service when it is no longer sufficient;
+- provide a clear progression from routine to guided to assisted support;
+- preserve relevant context when support level changes;
+- help staff understand why the customer has reached them; and
+- distinguish customer need from channel cost or operational convenience.
+
+### 10.3. Working design requirement
+
+> **The connected experience should provide the lowest level of support that is sufficient for the customer's current need, while making it easy to move into additional guidance or appropriate human support when complexity, uncertainty or service constraints mean self-service is no longer enough.**
+
+The objective is not to minimise human contact.
+
+The objective is to use human support where it adds value and reduce contact that exists only because the experience failed to explain, route or connect the journey effectively.
+
+### 10.4. Evidence status
+
+**Partially validated — support patterns are established, escalation triggers still require validation.**
+
+Define already used Routine, Guided and Assisted support patterns across Parking use cases.
+
+The parking-infringement work also identified complex, exceptional, returning and emotionally difficult interactions as contexts where different support may be required.
+
+The exact signals for changing support level have not yet been validated.
+
+### 10.5. Open questions
+
+> **What signals tell us that the current level of support is no longer sufficient and that the customer should receive additional guidance or human assistance?**
+
+Additional questions include:
+
+- Which customer needs can be completed confidently through routine self-service?
+- Which conditions should trigger Guided support?
+- Which conditions genuinely require Assisted or specialist support?
+- How should repeated failed attempts affect the support offered?
+- What service or statutory constraints require staff involvement?
+- What context should be passed to staff so escalation does not become a restart?
+- Where are staff currently compensating for information, routing or continuity problems that Design should remove upstream?
+
+---
+
+### 10.6. Support requirement 1 — use the minimum sufficient level of support
+
+**Working requirement**
+
+> **The experience should begin with the minimum level of support sufficient for the customer's need and add guidance only when it materially improves the customer's ability to proceed confidently.**
+
+**Evidence status:** Strong working direction.
+
+---
+
+### 10.7. Support requirement 2 — make additional help visible before failure
+
+**Working requirement**
+
+> **The experience should make the next available level of support visible at points where customers may reasonably need additional guidance, rather than waiting until the interaction has failed.**
+
+The appropriate support may be clearer information, guided decision support, assisted digital support, Contact Centre support or specialist service support.
+
+**Evidence status:** Working Design hypothesis.
+
+---
+
+### 10.8. Support requirement 3 — escalate based on need, not persistence
+
+**Working requirement**
+
+> **Escalation should be based on the customer's current need, complexity and unresolved issue rather than the number of times they have contacted City of Melbourne alone.**
+
+Previous interactions can inform the decision, but should not predetermine why the customer has returned.
+
+**Evidence status:** Working Design hypothesis; repeat-contact causes require further evidence.
+
+---
+
+### 10.9. Support requirement 4 — escalate when uncertainty materially affects the next action
+
+**Working requirement**
+
+> **Where the experience cannot determine an appropriate next step with sufficient confidence, it should provide additional guidance or escalate to appropriate human support rather than forcing the customer into a potentially incorrect pathway.**
+
+This is particularly relevant where intent remains ambiguous, customer circumstances may materially change the pathway, authority or evidence requirements are unclear, or the standard pathway does not appear to fit.
+
+**Evidence status:** Strong working direction; exact thresholds remain to define.
+
+---
+
+### 10.10. Support requirement 5 — human handoff should add value
+
+**Working requirement**
+
+> **When the customer moves into assisted support, the interaction should use relevant available context and enable staff to provide judgement, clarification or action that the previous support level could not provide.**
+
+The purpose of escalation is to increase the usefulness of the interaction, not merely change channel.
+
+**Evidence status:** Strong working direction; exact handoff information remains to validate.
+
+---
+
+### 10.11. Support requirement 6 — preserve access to human support for legitimate complexity
+
+**Working requirement**
+
+> **Where a customer's circumstances genuinely require human judgement, explanation or exception handling, the experience should provide a clear and proportionate route to the appropriate assisted or specialist support.**
+
+This does not imply that human support changes statutory rules or guarantees a different service outcome.
+
+**Evidence status:** Partially validated; service-specific escalation rules require validation.
+
+---
+
+### 10.12. What good looks like for Support & escalation
+
+A connected Comply experience should allow a customer to say:
+
+> **I can resolve a straightforward situation without unnecessary help.**  
+> **I can see where to get more guidance before I become stuck.**  
+> **I am not forced to stay in self-service when it cannot resolve my need.**  
+> **If I move to human support, I do not have to unnecessarily start again.**  
+> **The person helping me can add something the previous interaction could not.**
+
+Better support creates value when customers receive enough help to make progress without unnecessary escalation, while human effort is focused on interactions where judgement, clarification or specialist support genuinely adds value.
+
+---
+
+## 11. Requirement area 5 — Identity, authority & authentication
+
+### 11.1. Customer need
+
+> **Let me understand and explore my options before asking me to prove who I am, and only ask for identity or authority when it is genuinely required for the action I want to take.**
+
+Identity, authority and authentication are related but different.
+
+A customer may be able to:
+
+- understand a rule;
+- explore options;
+- learn what evidence is required; or
+- identify the correct pathway
+
+without being authenticated.
+
+A later action may require City of Melbourne to establish:
+
+- who the person is;
+- which infringement or matter they are acting on;
+- whether they are authorised to act; or
+- whether a higher level of identity assurance is required.
+
+### 11.2. Service need
+
+City of Melbourne needs to apply identity, authority and authentication proportionately to the risk and requirements of the customer's intended action.
+
+The experience should distinguish between:
+
+- **identity** — who the person is;
+- **authority** — whether they are entitled to act in relation to the matter;
+- **authentication** — how identity or access is verified; and
+- **matter matching** — confirming which infringement, vehicle or case the interaction relates to.
+
+These should not be treated as one generic login requirement.
+
+### 11.3. Working design requirement
+
+> **The connected experience should ask for identity, authority or authentication only when the intended action requires it, using the minimum level of assurance necessary to proceed safely and lawfully.**
+
+The design should avoid using authentication as a prerequisite for general information or early intent recognition where it is not required.
+
+### 11.4. Evidence status
+
+**Partially validated — the distinction is important, exact service rules require authoritative validation.**
+
+The Parking work indicates that different pathways may have different identity, authority and reference requirements.
+
+Exact rules for owner, nominated-driver, business, representative and other scenarios must be confirmed with authoritative service owners and relevant policy or statutory sources.
+
+### 11.5. Open questions
+
+> **At what point in each pathway does City of Melbourne genuinely need to know who the customer is, whether they have authority to act, and how strongly that must be verified?**
+
+Additional questions include:
+
+- Which interactions can remain anonymous?
+- Which interactions require matter matching but not full authentication?
+- Which actions require proof of authority rather than proof of identity alone?
+- Can authentication occur only when the customer commits to an action?
+- What information can be reused once identity or authority has been established?
+- How should representatives, organisations or nominated drivers be handled?
+- What controls are required for privacy, records, security and statutory compliance?
+
+---
+
+### 11.6. Identity requirement 1 — do not authenticate before it adds value
+
+**Working requirement**
+
+> **The experience should allow customers to access general information, understand options and identify the appropriate pathway without authentication where the service does not require identity at that stage.**
+
+**Evidence status:** Strong Design principle; exact exceptions require validation.
+
+---
+
+### 11.7. Identity requirement 2 — distinguish identity from authority
+
+Knowing who a person is does not necessarily establish that they are entitled to act.
+
+**Working requirement**
+
+> **Where an action depends on authority, the experience should confirm the customer's authority to act separately from simply establishing identity.**
+
+**Evidence status:** Strong working direction; authority rules require service validation.
+
+---
+
+### 11.8. Identity requirement 3 — use proportionate assurance
+
+Different actions may carry different risks.
+
+**Working requirement**
+
+> **The level of identity or authentication assurance should be proportionate to the action, information being accessed and service risk rather than applying the highest level of assurance to every interaction.**
+
+**Evidence status:** Design principle; risk thresholds require specialist validation.
+
+---
+
+### 11.9. Identity requirement 4 — make verification understandable
+
+Customers should know why information is being requested.
+
+**Working requirement**
+
+> **When identity, authority or authentication is required, the experience should explain what is needed, why it is needed and what the customer can do if they cannot provide it through the standard method.**
+
+**Evidence status:** Strong working direction.
+
+---
+
+### 11.10. Identity requirement 5 — avoid repeated verification where it is legitimately reusable
+
+**Working requirement**
+
+> **Where identity or authority has already been established and can legitimately be relied upon, the experience should avoid requiring the customer to repeat verification solely because they move between connected interactions.**
+
+This depends on privacy, security, records, system and statutory constraints.
+
+**Evidence status:** Working Design hypothesis.
+
+---
+
+### 11.11. What good looks like for Identity, authority & authentication
+
+A connected Comply experience should allow a customer to say:
+
+> **I can understand my options before being asked to identify myself unnecessarily.**  
+> **When City of Melbourne asks who I am, I understand why.**  
+> **If I need authority to act, that is explained clearly.**  
+> **The level of verification feels proportionate to what I am trying to do.**  
+> **I do not repeatedly prove the same thing without a legitimate reason.**
+
+---
+
+## 12. Requirement area 6 — Discovery & off-platform entry
+
+### 12.1. Customer need
+
+> **Help me find accurate, understandable information and the right next action wherever I begin — even if I start with Google, an AI-enabled search experience, an infringement notice or another external source.**
+
+The customer journey does not necessarily begin on a City of Melbourne webpage.
+
+The Intelligent Front Door therefore needs to consider both:
+
+- the quality of City of Melbourne-owned information and pathways; and
+- how well that information can be discovered, interpreted and represented through external discovery surfaces.
+
+### 12.2. Service need
+
+City of Melbourne needs authoritative customer information that is clear, structured and consistent enough to support reliable discovery across both owned and off-platform channels.
+
+The design should help external discovery surfaces identify:
+
+- what the service is about;
+- which customer situations or intents it applies to;
+- what options exist;
+- which information is authoritative;
+- what the next action is; and
+- where the customer must return to City of Melbourne to complete a protected, authenticated or formal action.
+
+City of Melbourne cannot control every external answer.
+
+The design opportunity is to improve the quality and machine-readability of the authoritative source material external systems rely on.
+
+### 12.3. Working design requirement
+
+> **The connected experience should make authoritative City of Melbourne information discoverable and interpretable from common customer entry points, while providing a clear path back to the appropriate City of Melbourne-owned interaction when formal action, authentication or human support is required.**
+
+### 12.4. Evidence status
+
+**Working Design direction — linked to the Off-Platform Search workstream and requires active testing.**
+
+Discovery and Define identified off-platform search and AI-enabled discovery as plausible customer entry points.
+
+The extent to which different search and AI surfaces can reliably interpret current City of Melbourne content must be established through testing rather than assumed.
+
+### 12.5. Open questions
+
+> **What must be true of City of Melbourne's authoritative information so that a customer starting off-platform can understand the issue, receive safe guidance and reach the right owned pathway?**
+
+Additional questions include:
+
+- Which parking-infringement queries are most important to test?
+- Which pages or knowledge sources should be authoritative?
+- Can search and AI systems distinguish payment, review, nomination and information intents reliably?
+- What information should be answerable off-platform versus requiring transition to an owned pathway?
+- How should City of Melbourne signal authoritative, current and service-specific information?
+- What content structures improve machine interpretation without degrading human readability?
+- How will off-platform performance be monitored over time?
+
+---
+
+### 12.6. Discovery requirement 1 — optimise the authoritative source, not the external answer
+
+**Working requirement**
+
+> **City of Melbourne should maintain clear, current and structured authoritative source information so external search and AI systems have a reliable basis for interpreting the service.**
+
+The design should not depend on controlling a third-party interface or generated answer.
+
+**Evidence status:** Strong Design principle; specific content patterns to test.
+
+---
+
+### 12.7. Discovery requirement 2 — support customer-language entry
+
+Customers may search using their own description of the situation rather than formal service terminology.
+
+**Working requirement**
+
+> **Authoritative information should make the relationship between common customer language, customer intent and the relevant City of Melbourne service or pathway sufficiently explicit for both people and machine-mediated discovery.**
+
+**Evidence status:** Strong working direction.
+
+---
+
+### 12.8. Discovery requirement 3 — make the next action explicit
+
+External discovery is useful only if the customer can determine what to do next.
+
+**Working requirement**
+
+> **Authoritative information should clearly identify the legitimate next actions and provide an unambiguous route to the relevant City of Melbourne-owned pathway where action is required.**
+
+**Evidence status:** Strong working direction.
+
+---
+
+### 12.9. Discovery requirement 4 — distinguish information from formal action
+
+Some information can be safely understood off-platform.
+
+Payment, nomination, review submission, identity verification and other formal actions may need to occur in controlled City of Melbourne pathways.
+
+**Working requirement**
+
+> **The experience should make clear when information can be consumed off-platform and when the customer must transition to an owned City of Melbourne interaction to act, authenticate or obtain appropriate support.**
+
+**Evidence status:** Strong working direction; exact boundaries require service validation.
+
+---
+
+### 12.10. Discovery requirement 5 — design for human and machine readability together
+
+**Working requirement**
+
+> **Customer-facing information should use clear structure, terminology and relationships that improve machine interpretation without creating a separate or degraded experience for human readers.**
+
+This connects IFD Design to the Off-Platform Search AI-readability work without making AI optimisation a separate customer experience.
+
+**Evidence status:** Working hypothesis to test.
+
+---
+
+### 12.11. Discovery requirement 6 — monitor external interpretation rather than assume it remains correct
+
+External search and AI behaviour can change independently of City of Melbourne.
+
+**Working requirement**
+
+> **The future operating model should include a lightweight way to test whether priority customer intents continue to be represented accurately through important off-platform discovery surfaces.**
+
+This is a monitoring requirement, not a commitment to control third-party outputs.
+
+**Evidence status:** Working Design direction.
+
+---
+
+### 12.12. What good looks like for Discovery & off-platform entry
+
+A connected Comply experience should allow a customer to say:
+
+> **I can begin in the place I naturally search.**  
+> **The information I find helps me understand what applies to my situation.**  
+> **I can tell which City of Melbourne information is authoritative.**  
+> **I know when I can keep reading and when I need to move into an official pathway.**  
+> **The transition into City of Melbourne feels like a continuation of the same task.**
+
+Better off-platform discovery creates value when customers reach accurate information and the appropriate City of Melbourne interaction earlier, reducing unnecessary searching, misdirection and avoidable contact.
+
+---
+
+## 13. Evidence discipline
 
 During Design, distinguish:
 
@@ -820,7 +1255,7 @@ Requirements should remain traceable to a customer need, service need, validated
 
 ---
 
-## 11. Current scope
+## 14. Current scope
 
 ### In scope
 
@@ -849,7 +1284,7 @@ Requirements should remain traceable to a customer need, service need, validated
 
 ---
 
-## 12. Design principles
+## 15. Design principles
 
 | Principle | What it means for this work |
 | --- | --- |
@@ -864,7 +1299,7 @@ Requirements should remain traceable to a customer need, service need, validated
 
 ---
 
-## 13. Current Design sequence
+## 16. Current Design sequence
 
 The current working sequence is:
 
@@ -876,22 +1311,28 @@ The current working sequence is:
 6. **Prototype and test** — test usefulness, clarity, fairness, feasibility and reusability.
 7. **Decision** — determine what is strong enough to progress into Deliver.
 
-### Next requirement area
+### Requirement-set status
 
-**Support & escalation**
+The six initial Design requirement areas are now documented:
 
-The next step is to define:
+1. Information & knowledge
+2. Intent & routing
+3. Context & continuity
+4. Support & escalation
+5. Identity, authority & authentication
+6. Discovery & off-platform entry
 
-- customer need;
-- service need;
-- working design requirement;
-- evidence status;
-- open questions; and
-- the signals and conditions that should change the level of guidance or trigger appropriate human support.
+These remain working Design requirements rather than approved business or technical requirements.
+
+### Next Design task
+
+**Future-state concept framing**
+
+The next step is to translate the six requirement areas into a small number of future-state interaction principles and concept options that can be mapped across the parking-infringement journey and tested without prematurely selecting technology.
 
 ---
 
-## 14. Design exit criteria
+## 17. Design exit criteria
 
 Design can move into Deliver when:
 
@@ -910,7 +1351,7 @@ Design can move into Deliver when:
 
 ---
 
-## 15. Final Design outcome
+## 18. Final Design outcome
 
 By the end of Design, the team should have a practical and testable future-state approach for the first Intelligent Front Door use case.
 
