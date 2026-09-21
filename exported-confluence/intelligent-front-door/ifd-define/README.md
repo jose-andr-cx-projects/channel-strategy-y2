@@ -5,7 +5,7 @@ confluence_page_id: "1348698114"
 confluence_space_id: "68452354"
 confluence_status: "current"
 confluence_url: "https://jira-cityofmelbourne.atlassian.net/spaces/cex/pages/1348698114/IFD+-+Define"
-confluence_version: "2"
+confluence_version: "3"
 repository_path: "intelligent-front-door/ifd-define/README.md"
 generated: true
 ---
@@ -13,10 +13,6 @@ generated: true
 > **Source note:** Generated from Confluence. Do not edit directly while Confluence remains the source of truth.
 
 # IFD - Define
-
-Understood. I’ve converted the generic Define template into an **active Intelligent Front Door Define page**, using the sprint activity we just created and keeping detailed delivery tracking in Jira rather than duplicating it in Confluence. This reflects the agreed sprint direction from the weekly connect and your existing “Confluence explains the work; Jira manages the work” model.
-
-# Intelligent Front Door — Define
 
 ## Page status
 
