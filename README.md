@@ -1,15 +1,20 @@
 # Channel Strategy Y2
 
-**Repository navigation note — 26 October 2026.** This existing GitHub repository is a historical/transition reference, not the intended ongoing source of CoM project truth. Before migrating or changing documentation, inspect the corresponding approved Bitbucket repository and Confluence/Jira records.
+**Portfolio role:** active-workstream. **Working purpose:** Improve channel experience and interaction pathways through bounded discovery, design and validation.
 
-## Existing repository contents
+# Read me first
 
-- `working-notes/`: working project notes, inspect current status before reuse.
-- `exported-confluence/`: exported copies; not automatically authoritative current Confluence.
-- `scripts/` and `bitbucket-pipelines.yml`: technical publishing/support artefacts, to be checked against current Bitbucket setup.
+This repository is a **new Bitbucket-ready CoM project structure staged in GitHub** on 26 October 2026. It replaces the earlier GitHub working tree on `main` as requested. The prior tree remains recoverable from Git history, but is **not** an ongoing mirror or the current organisational source.
 
-## Future operating model
+**Programme architecture:** [CX Portfolio Management](https://github.com/jose-andr-cx-projects/cx-portfolio-context). Future Personal/Strategic OS intake will be designed separately *after* the new CoM architecture is established. No live bridge or automatic export exists.
 
-The [CX Portfolio Bitbucket transition package](https://github.com/jose-andr-cx-projects/cx-portfolio-context/tree/main/bitbucket-transition) defines project README navigation, source contracts, Rovo Companion behaviour and a governed Strategic OS intake that does **not** require ongoing GitHub mirroring.
-
-**Do not assume this GitHub repository is synchronised with Bitbucket.** Project delivery and publishing state must be verified in CoM Atlassian systems.
+## Navigation
+| Path | Use |
+|---|---|
+| `project-overview.md` | Purpose, scope and relationship to the portfolio |
+| `source-contract.md` | Approved source authority and publishing rules to verify at import |
+| `project-decisions.md` | Proposed, approved, superseded and open decisions |
+| `evidence/README.md` | Research and workshop evidence references |
+| `delivery/next-steps.md` | Current smallest next increment and blockers, not a duplicate Jira backlog |
+| `agent/companion.md` | CX Project Companion read/write operating rules |
+| `migration/RESET.md` | Exact previous main head for recovery |
