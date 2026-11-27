@@ -1,10 +1,12 @@
 # Evidence and validation register
 
-This is a *reference register*, not storage for raw transcripts or unapproved data.
+Reference register for approved evidence, not raw transcripts or unapproved data.
 
-| Date | Activity/evidence | Source location | Findings | Confidence | Follow-up |
-|---|---|---|---|---|---|
-| 2026-10-29 | Parking infringement review evidence synthesis for IFD Find → Understand | CoM CX Uplift, *Parking Infringement Review*, August 2024; synthesis: [parking IFD evidence](2026-10-29-parking-infringement-review-ifd-synthesis.md) | Visitor share in two-week review capture, unclear review categories, guidance and expectations; intent-led IFD design hypothesis | Historical evidence; design interpretation to validate | Test scenario cards, confirm current rules and service-owner review |
-| To populate | Latest relevant workshop, research or source review | CoM-approved reference to verify | Not assessed in this new snapshot | Unverified | Populate after first approved evidence review |
+| Date | Evidence | Finding | Confidence / next step |
+|---|---|---|---|
+| 2026-10-29 | [Parking IFD evidence](2026-10-29-parking-infringement-review-ifd-synthesis.md), based on August 2024 review research | Intent-led Find → Understand; guidance, expectations and customer context | Historical research; validate current service rules and scenarios |
+| 2026-11-18 | [Physical wall and walkthrough plan](2026-11-18-physical-wall-walkthrough-plan.md) | Discovery narrative, current journeys, concept and early feedback assembled | Wall observed; walkthrough delivery and scope approval not verified |
 
-Distinguish participant statements from observed research and approved decisions. When working in Miro, use approved frame exports and link to the source board within CoM. Do not infer spatial relationships from inaccessible board URLs.
+Earlier September/October Confluence-derived discovery, Define, Design, workstream records and October critique remain recoverable from the pre-reset revision documented in `migration/RESET.md`. Reconcile against current approved organisational copies before transferring any detail to Bitbucket. The September off-platform results themselves were not established from the reviewed template.
+
+Distinguish participant statements, observed research, interpretations and approved decisions.
