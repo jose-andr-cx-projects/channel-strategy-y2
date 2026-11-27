@@ -29,5 +29,20 @@ This is a **Bitbucket-ready staging snapshot**. When imported into the approved 
 - Do not include raw transcripts, personal data, confidential extracts or secrets in the repository by default.
 - Do not mirror operational CoM records to personal GitHub or Personal/Strategic OS.
 
+## Executive publication contract
+
+Confluence communicates concise stakeholder-facing outcomes; approved Bitbucket records retain detailed evidence, decisions, design rationale and 4D artefacts; Jira tracks delivery. Miro supports collaborative design. Maintain the four existing workstreams (Intelligent Front Door, Knowledge Management System, Information Architecture, Off-Platform Search) independently of the proposed executive navigation.
+
+| Proposed executive page | Source | Target verification |
+|---|---|---|
+| Project Management | project-overview.md | Historical existing page ID 1339392001; verify current title, parent, space and version |
+| Discovery and Insights | executive/discovery-and-insights.md | Existing target not established |
+| Experience Concepts and Validation | executive/experience-concepts-and-validation.md | Existing target not established |
+| Stakeholder Playbacks | executive/stakeholder-playbacks.md | Existing target not established |
+
+These are proposed views, not permission to overwrite or archive existing deliverable pages. Before publishing, reconcile approved Bitbucket and Confluence content, preserve detailed records, confirm exact target identities and versions, and use read-only validation before explicitly approved writes. Do not restore the historical export/write-back pipeline blindly: it used a different authority model and can overwrite or archive pages. No live pipeline is configured in this staging tree.
+
+For each material project update, maintain the affected executive view alongside supporting evidence, verify mapped source coverage and distinguish commit, publication readiness, deployment and content verification. Never imply Jira operations from publication.
+
 ## Import gate
 After Bitbucket import, verify permissions, repository identifiers, branches, actual Confluence publishing configuration and Jira mappings. Replace placeholders with verified organisational links. Until then these are candidate contracts, not deployed integration claims.
