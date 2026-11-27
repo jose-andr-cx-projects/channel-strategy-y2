@@ -9,14 +9,14 @@ Move from fragmented channels to connected customer interactions: understand int
 
 | Workstream | Evidence-backed progress |
 |---|---|
-| Intelligent Front Door | Q1 discovery and Define established parking infringements as first Design case. November physical wall brings discovery, current journeys and the proposed concept together. |
+| Intelligent Front Door | Q1 discovery and Define established parking infringements as first Design case. November physical wall curated with Gavin in preparation for stakeholder engagement; brings discovery, current journeys and the proposed concept together. |
 | Information Architecture | Discovery framing established: customer language, service labels, pathways and service catalogue alignment. Current delivery state to verify. |
 | Knowledge Management System | Discovery framing established: authoritative sources, taxonomy, ownership, governance and AI readiness. Current delivery state to verify. |
 | Off-Platform Search | Test method and criteria established in September; reconcile actual results and website changes before claiming improvements. |
 
 ## Current sprint objectives
 
-Working priorities for late November; confirm dates, owners and issue states in Jira.
+Working priorities from the 27 November management update and proposed design follow-up; Jira documentation has not yet been entered. Confirm dates, owners and acceptance criteria during planning.
 
 - Use the physical wall to support decision-focused stakeholder walkthroughs and select what to build.
 - Narrow the parking infringement concept to one testable intent and existing service handoff.
