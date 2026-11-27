@@ -1,0 +1,51 @@
+{
+  "space_id": "68452354",
+  "targets": [
+    {
+      "title": "1. Project Management",
+      "page_id": "1339392001",
+      "initial_version": null,
+      "source": "project-overview.md",
+      "required": [
+        "Purpose and progress",
+        "Current sprint objectives",
+        "Value-drop roadmap",
+        "Decisions and dependencies",
+        "Detailed records"
+      ]
+    },
+    {
+      "title": "CS-Y2 - Discovery and Insights",
+      "page_id": null,
+      "initial_version": null,
+      "source": "executive/discovery-and-insights.md",
+      "required": [
+        "Executive summary",
+        "Evidence and implications",
+        "Detailed records"
+      ]
+    },
+    {
+      "title": "CS-Y2 - Experience Concepts and Validation",
+      "page_id": null,
+      "initial_version": null,
+      "source": "executive/experience-concepts-and-validation.md",
+      "required": [
+        "Executive summary",
+        "Validation priorities",
+        "Detailed records"
+      ]
+    },
+    {
+      "title": "CS-Y2 - Stakeholder Playbacks",
+      "page_id": null,
+      "initial_version": null,
+      "source": "executive/stakeholder-playbacks.md",
+      "required": [
+        "Executive summary",
+        "Next engagement",
+        "Detailed records"
+      ]
+    }
+  ]
+}
