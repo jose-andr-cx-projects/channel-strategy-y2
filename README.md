@@ -18,3 +18,12 @@ This repository is a **new Bitbucket-ready CoM project structure staged in GitHu
 | `delivery/next-steps.md` | Current smallest next increment and blockers, not a duplicate Jira backlog |
 | `agent/companion.md` | CX Project Companion read/write operating rules |
 | `migration/RESET.md` | Exact previous main head for recovery |
+
+## Executive stakeholder views (27 November 2026)
+
+- [Project Management](project-overview.md)
+- [Discovery and Insights](executive/discovery-and-insights.md)
+- [Experience Concepts and Validation](executive/experience-concepts-and-validation.md)
+- [Stakeholder Playbacks](executive/stakeholder-playbacks.md)
+
+These are proposed Confluence publishing sources. See [source contract](source-contract.md) for target verification and deployment gates. Detailed workstream records remain separate; historical exports are recoverable via [reset provenance](migration/RESET.md).
