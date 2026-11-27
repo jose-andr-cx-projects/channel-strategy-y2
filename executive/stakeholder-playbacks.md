@@ -11,7 +11,7 @@ Engagement is intended to help stakeholders shape what to build, not simply rece
 |---|---|
 | Q1 discovery and Define discussions | Framed connected interactions, considered candidate journeys and narrowed the first Design case to parking infringements. |
 | October journey artefact critique | Challenged the purpose of the visual, customer intent versus demographic lanes, mode versus pathway and technology assumptions. A scope pivot was explored, not endorsed. |
-| November physical wall | Assembled discovery, current journeys, proposed front-door concept and early handwritten feedback. |
+| November physical wall | Assembled discovery, current journeys, proposed front-door concept and early handwritten feedback; reported curated with Gavin in the 27 November management update in preparation for a stakeholder session. |
 
 ## Next engagement
 
